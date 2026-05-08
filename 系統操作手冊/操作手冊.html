@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SocialMaster 系統操作手冊</title>
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: 'Segoe UI', 'Microsoft JhengHei', sans-serif;
+        font-size: 15px;
+        line-height: 1.75;
+        color: #1e1e2e;
+        background: #f5f6fa;
+      }
+
+      /* ── Layout ── */
+      .wrapper {
+        display: flex;
+        min-height: 100vh;
+      }
+
+      /* ── Sidebar ── */
+      nav {
+        width: 240px;
+        flex-shrink: 0;
+        background: #1a1d2e;
+        color: #c9d1e0;
+        position: sticky;
+        top: 0;
+        height: 100vh;
+        overflow-y: auto;
+        padding: 28px 0 28px 0;
+      }
+      .nav-brand {
+        font-size: 17px;
+        font-weight: 700;
+        color: #fff;
+        padding: 0 22px 20px 22px;
+        border-bottom: 1px solid #2e3248;
+      }
+      .nav-brand span {
+        color: #4e9af1;
+      }
+      nav ul {
+        list-style: none;
+        margin-top: 16px;
+      }
+      nav ul li a {
+        display: block;
+        padding: 9px 22px;
+        color: #aab2c8;
+        text-decoration: none;
+        font-size: 13.5px;
+        border-left: 3px solid transparent;
+        transition: background 0.15s, color 0.15s;
+      }
+      nav ul li a:hover {
+        background: #252840;
+        color: #fff;
+        border-left-color: #4e9af1;
+      }
+      nav ul li a .num {
+        display: inline-block;
+        width: 22px;
+        font-size: 11px;
+        color: #5a6280;
+        margin-right: 4px;
+      }
+
+      /* ── Main content ── */
+      main {
+        flex: 1;
+        padding: 48px 52px 80px 52px;
+        max-width: 900px;
+      }
+
+      .page-title {
+        font-size: 28px;
+        font-weight: 700;
+        color: #1a1d2e;
+        margin-bottom: 4px;
+      }
+      .page-subtitle {
+        color: #6b7280;
+        font-size: 14px;
+        margin-bottom: 40px;
+      }
+
+      /* ── Sections ── */
+      section {
+        margin-bottom: 52px;
+      }
+      h2 {
+        font-size: 19px;
+        font-weight: 700;
+        color: #1a1d2e;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #e4e7f0;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      h2 .section-num {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: #4e9af1;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 700;
+        flex-shrink: 0;
+      }
+      h3 {
+        font-size: 15px;
+        font-weight: 600;
+        color: #2d3a5e;
+        margin: 20px 0 10px 0;
+      }
+
+      p {
+        margin-bottom: 12px;
+        color: #374151;
+      }
+
+      /* ── UI Diagram ── */
+      .ui-diagram {
+        background: #1a1d2e;
+        color: #a8c4e8;
+        font-family: 'Consolas', 'Courier New', monospace;
+        font-size: 13px;
+        line-height: 1.6;
+        border-radius: 10px;
+        padding: 20px 24px;
+        margin: 16px 0;
+        white-space: pre;
+        overflow-x: auto;
+      }
+
+      /* ── Tables ── */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 14px 0;
+        font-size: 14px;
+      }
+      thead tr {
+        background: #eef1fb;
+      }
+      th {
+        text-align: left;
+        padding: 10px 14px;
+        font-weight: 600;
+        color: #374151;
+        border-bottom: 2px solid #dde2f0;
+      }
+      td {
+        padding: 9px 14px;
+        border-bottom: 1px solid #edf0f7;
+        color: #374151;
+        vertical-align: top;
+      }
+      tr:last-child td {
+        border-bottom: none;
+      }
+      tr:hover td {
+        background: #f8f9ff;
+      }
+
+      /* ── Steps ── */
+      ol.steps {
+        padding-left: 0;
+        list-style: none;
+        counter-reset: step;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      ol.steps li {
+        counter-increment: step;
+        display: flex;
+        gap: 14px;
+        align-items: flex-start;
+      }
+      ol.steps li::before {
+        content: counter(step);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        background: #4e9af1;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 700;
+        flex-shrink: 0;
+        margin-top: 2px;
+      }
+      ol.steps li span {
+        color: #374151;
+      }
+
+      /* ── Flow diagram ── */
+      .flow {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin: 16px 0;
+      }
+      .flow-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 14px;
+        position: relative;
+      }
+      .flow-dot {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background: #4e9af1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 700;
+        flex-shrink: 0;
+        position: relative;
+        z-index: 1;
+      }
+      .flow-line {
+        position: absolute;
+        left: 17px;
+        top: 36px;
+        bottom: -14px;
+        width: 2px;
+        background: #d1d9ef;
+      }
+      .flow-content {
+        padding-top: 6px;
+        padding-bottom: 24px;
+      }
+      .flow-content strong {
+        display: block;
+        color: #1a1d2e;
+        font-size: 14.5px;
+      }
+      .flow-content span {
+        color: #6b7280;
+        font-size: 13.5px;
+      }
+      .flow-item:last-child .flow-line {
+        display: none;
+      }
+      .flow-item:last-child .flow-content {
+        padding-bottom: 0;
+      }
+
+      /* ── Status badges ── */
+      .badge {
+        display: inline-block;
+        padding: 2px 10px;
+        border-radius: 12px;
+        font-size: 12.5px;
+        font-weight: 600;
+      }
+      .badge-blue {
+        background: #dbeafe;
+        color: #1d4ed8;
+      }
+      .badge-green {
+        background: #dcfce7;
+        color: #15803d;
+      }
+      .badge-purple {
+        background: #ede9fe;
+        color: #7c3aed;
+      }
+      .badge-orange {
+        background: #ffedd5;
+        color: #c2410c;
+      }
+      .badge-red {
+        background: #fee2e2;
+        color: #b91c1c;
+      }
+      .badge-gray {
+        background: #f3f4f6;
+        color: #4b5563;
+      }
+      .badge-sky {
+        background: #e0f2fe;
+        color: #0369a1;
+      }
+
+      /* ── Callout boxes ── */
+      .callout {
+        border-radius: 8px;
+        padding: 14px 18px;
+        margin: 16px 0;
+        font-size: 14px;
+        display: flex;
+        gap: 12px;
+        align-items: flex-start;
+      }
+      .callout-icon {
+        font-size: 18px;
+        flex-shrink: 0;
+      }
+      .callout-tip {
+        background: #eff6ff;
+        border-left: 4px solid #3b82f6;
+      }
+      .callout-warn {
+        background: #fffbeb;
+        border-left: 4px solid #f59e0b;
+      }
+      .callout-info {
+        background: #f0fdf4;
+        border-left: 4px solid #22c55e;
+      }
+
+      /* ── Kbd ── */
+      kbd {
+        background: #eef1fb;
+        border: 1px solid #c8d0e7;
+        border-bottom-width: 2px;
+        border-radius: 4px;
+        padding: 1px 7px;
+        font-size: 12.5px;
+        font-family: inherit;
+        color: #374151;
+      }
+
+      /* ── Code inline ── */
+      code {
+        background: #eef1fb;
+        border-radius: 4px;
+        padding: 1px 6px;
+        font-family: 'Consolas', monospace;
+        font-size: 13px;
+        color: #c0392b;
+      }
+
+      /* ── Log colors ── */
+      .log-green {
+        color: #22c55e;
+      }
+      .log-yellow {
+        color: #eab308;
+      }
+      .log-red {
+        color: #ef4444;
+      }
+
+      @media (max-width: 768px) {
+        nav {
+          display: none;
+        }
+        main {
+          padding: 28px 20px 60px 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- ── Sidebar ── -->
+      <nav>
+        <div class="nav-brand">
+          Social
+          <span>Master</span>
+        </div>
+        <ul>
+          <li>
+            <a href="#s0">
+              <span class="num">00</span>
+              安裝runtime
+            </a>
+          </li>
+          <li>
+            <a href="#s1">
+              <span class="num">01</span>
+              主畫面介紹
+            </a>
+          </li>
+          <li>
+            <a href="#s2">
+              <span class="num">02</span>
+              新增帳號
+            </a>
+          </li>
+          <li>
+            <a href="#s3">
+              <span class="num">03</span>
+              啟動與停止
+            </a>
+          </li>
+          <li>
+            <a href="#s4">
+              <span class="num">04</span>
+              啟用 / 停用帳號
+            </a>
+          </li>
+          <li>
+            <a href="#s5">
+              <span class="num">05</span>
+              帳號狀態說明
+            </a>
+          </li>
+          <li>
+            <a href="#s6">
+              <span class="num">06</span>
+              首次登入
+            </a>
+          </li>
+          <li>
+            <a href="#s7">
+              <span class="num">07</span>
+              編輯帳號
+            </a>
+          </li>
+          <li>
+            <a href="#s8">
+              <span class="num">08</span>
+              批次修改發文間隔
+            </a>
+          </li>
+          <li>
+            <a href="#s9">
+              <span class="num">09</span>
+              平台篩選
+            </a>
+          </li>
+          <li>
+            <a href="#s10">
+              <span class="num">10</span>
+              右鍵選單
+            </a>
+          </li>
+          <li>
+            <a href="#s11">
+              <span class="num">11</span>
+              執行日誌
+            </a>
+          </li>
+          <li>
+            <a href="#s12">
+              <span class="num">12</span>
+              最小化與系統托盤
+            </a>
+          </li>
+          <li>
+            <a href="#s13">
+              <span class="num">13</span>
+              重新整理
+            </a>
+          </li>
+          <li>
+            <a href="#s14">
+              <span class="num">14</span>
+              發文流程說明
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- ── Main ── -->
+      <main>
+        <div class="page-title">SocialMaster 系統操作手冊</div>
+        <div class="page-subtitle">終端使用者操作指南 · 適用版本 2.0.0</div>
+
+        <!-- 00 安裝runtime -->
+        <section id="s0">
+          <h2>
+            <span class="section-num">0</span>
+            安裝runtime
+          </h2>
+
+          <p>
+            點擊 [windowsdesktop-runtime-10.0.7-win-x64.exe] 安裝
+          </p>
+
+          <div class="callout callout-tip">
+            <span class="callout-icon">💡</span>
+            <div>
+              已安裝過可以省略此步驟，如果不確定是否安裝過，可以先嘗試啟動程式，如果缺少runtime會有提示訊息引導安裝。
+            </div>
+          </div>
+        </section>
+
+        <!-- 01 主畫面 -->
+        <section id="s1">
+          <h2>
+            <span class="section-num">1</span>
+            主畫面介紹
+          </h2>
+          <p>程式啟動後顯示主視窗，由上至下分為四個區域：</p>
+          <div class="ui-diagram">
+            ┌─────────────────────────────────────────────────────────────────┐
+            │ ▶ 全部啟動 ■ 全部停止 ⏱ 更改選取發文間隔 ＋ 新增帳號 ⟳ 重新整理 │
+            ├─────────────────────────────────────────────────────────────────┤
+            │ 平台篩選列 全部 │ Instagram │ X │ Facebook │
+            ├─────────────────────────────────────────────────────────────────┤
+            │ 選取 │ 啟動 │ ID │ 名稱 │ 狀態 │ 平台 │ 來源 │ 發文間隔 │ 下次發文 │ 來源設定 │
+            │─────┼──────┼────┼──────┼──────┼──────┼──────┼──────────┼──────────┼─────────│
+            │ 
+			│ │ 帳號清單（每筆為一個社群帳號） │ 
+			│
+            ├─────────────────────────────────────────────────────────────────┤
+            │ 執行日誌（即時顯示各帳號的運作記錄） [清除] │
+            └─────────────────────────────────────────────────────────────────┘
+          </div>
+        </section>
+
+        <!-- 02 新增帳號 -->
+        <section id="s2">
+          <h2>
+            <span class="section-num">2</span>
+            首次使用：新增帳號
+          </h2>
+          <p>
+            點擊右上角
+            <kbd>＋ 新增帳號</kbd>
+            按鈕，填入以下欄位後按「確定」：
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th style="width: 160px;">欄位</th>
+                <th>說明</th>
+                <th>範例</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>社群平台</strong></td>
+                <td>要發文的目標平台（下拉選單）</td>
+                <td>
+                  <code>Instagram</code>
+                  /
+                  <code>X</code>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>內容來源</strong></td>
+                <td>影片抓取的來源平台（下拉選單）</td>
+                <td><code>Douyin</code></td>
+              </tr>
+              <tr>
+                <td><strong>來源設定 (URL)</strong></td>
+                <td>
+                  抖音創作者的個人頁網址，需包含
+                  <code>sec_user_id</code>
+                  或
+                  <code>/user/</code>
+                  路徑
+                </td>
+                <td><code>https://www.douyin.com/user/MS4w...</code></td>
+              </tr>
+              <tr>
+                <td><strong>自訂名稱</strong></td>
+                <td>方便辨識的名稱，只有自己看得到，可留空</td>
+                <td><code>帳號A-美食</code></td>
+              </tr>
+              <tr>
+                <td><strong>備註</strong></td>
+                <td>任意備注，可留空</td>
+                <td><code>主力帳號</code></td>
+              </tr>
+              <tr>
+                <td><strong>發文間隔</strong></td>
+                <td>
+                  兩篇發文之間的等待時間範圍（分鐘）。
+                  <strong>最短必須小於最長。</strong>
+                </td>
+                <td>
+                  <code>1150</code>
+                  ～
+                  <code>5250</code>
+                  分鐘
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="callout callout-tip">
+            <span class="callout-icon">💡</span>
+            <div>
+              預設發文間隔為
+              <strong>1150 ～ 5250 分鐘</strong>
+              （約 19 小時 ～ 3.6
+              天），可依需求調整。建議不要設定過短以避免帳號被平台偵測。
+            </div>
+          </div>
+        </section>
+
+        <!-- 03 啟動與停止 -->
+        <section id="s3">
+          <h2>
+            <span class="section-num">3</span>
+            啟動與停止帳號
+          </h2>
+
+          <h3>啟動全部帳號</h3>
+          <p>
+            點擊工具列左側
+            <kbd>▶ 全部啟動</kbd>
+            ，所有「啟動」欄位打勾的帳號同時開始執行。
+          </p>
+
+          <h3>停止全部帳號</h3>
+          <p>
+            點擊
+            <kbd>■ 全部停止</kbd>
+            ，所有執行中的帳號立即停止。
+          </p>
+
+          <h3>啟動 / 停止單一帳號</h3>
+          <p>
+            在帳號列上按
+            <kbd>右鍵</kbd>
+            ，選擇
+            <strong>▶ 啟動</strong>
+            或
+            <strong>■ 停止</strong>
+            。
+          </p>
+
+          <div class="callout callout-tip">
+            <span class="callout-icon">💡</span>
+            <div>
+              若目前篩選列選的是特定平台（例如「Instagram」），
+              <kbd>▶ 全部啟動</kbd>
+              只會啟動該平台的帳號。
+            </div>
+          </div>
+        </section>
+
+        <!-- 04 啟用停用 -->
+        <section id="s4">
+          <h2>
+            <span class="section-num">4</span>
+            啟用 / 停用帳號
+          </h2>
+          <p>
+            表格第二欄
+            <strong>「啟動」</strong>
+            是勾選框：
+          </p>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  ☑
+                  <strong>打勾</strong>
+                </td>
+                <td>帳號處於啟用狀態，按「全部啟動」時會被包含</td>
+              </tr>
+              <tr>
+                <td>
+                  ☐
+                  <strong>取消勾</strong>
+                </td>
+                <td>
+                  帳號停用，不參與批次啟動；若原本在執行中，取消勾後會立即停止
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="callout callout-warn">
+            <span class="callout-icon">⚠️</span>
+            <div>
+              取消勾後帳號設定仍然保留，下次勾回「啟動」即可繼續執行，不會遺失資料。
+            </div>
+          </div>
+        </section>
+
+        <!-- 05 狀態說明 -->
+        <section id="s5">
+          <h2>
+            <span class="section-num">5</span>
+            帳號狀態說明
+          </h2>
+          <p>「狀態」欄位即時顯示每個帳號目前的運作情況：</p>
+          <table>
+            <thead>
+              <tr>
+                <th>狀態</th>
+                <th>說明</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="badge badge-gray">停止</span></td>
+                <td>Worker 未啟動，帳號閒置中</td>
+              </tr>
+              <tr>
+                <td><span class="badge badge-gray">閒置</span></td>
+                <td>剛啟動，正在初始化準備執行</td>
+              </tr>
+              <tr>
+                <td><span class="badge badge-sky">等待登入</span></td>
+                <td>
+                  瀏覽器已開啟，
+                  <strong>需要手動在瀏覽器中登入帳號</strong>
+                </td>
+              </tr>
+              <tr>
+                <td><span class="badge badge-green">下載中</span></td>
+                <td>正在從抖音下載影片至本機</td>
+              </tr>
+              <tr>
+                <td><span class="badge badge-blue">上傳中</span></td>
+                <td>正在將影片上傳至社群平台（Instagram / X）</td>
+              </tr>
+              <tr>
+                <td><span class="badge badge-purple">模擬人類行為中</span></td>
+                <td>上傳完成後，自動瀏覽頁面以模擬正常使用行為</td>
+              </tr>
+              <tr>
+                <td><span class="badge badge-orange">等待中</span></td>
+                <td>等待下次發文時間，「下次發文」欄位會顯示預計時間</td>
+              </tr>
+              <tr>
+                <td><span class="badge badge-red">錯誤</span></td>
+                <td>發生問題，請查看底部日誌了解原因</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- 06 首次登入 -->
+        <section id="s6">
+          <h2>
+            <span class="section-num">6</span>
+            首次登入
+          </h2>
+          <p>
+            帳號第一次啟動時，狀態會顯示
+            <span class="badge badge-sky">等待登入</span>
+            ，需要手動完成登入：
+          </p>
+          <ol class="steps">
+            <li>
+              <span>程式自動開啟 Chromium 瀏覽器視窗並導向社群平台登入頁</span>
+            </li>
+            <li>
+              <span>
+                在瀏覽器中輸入帳號密碼，完成登入（包含雙重驗證等步驟）
+              </span>
+            </li>
+            <li>
+              <span>
+                登入成功後，程式自動偵測並繼續執行，狀態切換為
+                <span class="badge badge-green">下載中</span>
+              </span>
+            </li>
+            <li>
+              <span>
+                之後重啟程式不需再登入，登入 Session 已保存在帳號的
+                <code>browser/</code>
+                目錄中
+              </span>
+            </li>
+          </ol>
+          <div class="callout callout-warn">
+            <span class="callout-icon">⚠️</span>
+            <div>
+              請勿在同一瀏覽器視窗中手動操作或切換帳號，以免影響自動化流程。
+            </div>
+          </div>
+        </section>
+
+        <!-- 07 編輯帳號 -->
+        <section id="s7">
+          <h2>
+            <span class="section-num">7</span>
+            編輯帳號
+          </h2>
+          <p>有兩種方式開啟編輯視窗：</p>
+          <ul
+            style="
+              list-style: disc;
+              padding-left: 22px;
+              color: #374151;
+              margin-bottom: 14px;
+            "
+          >
+            <li>
+              在帳號列上
+              <strong>雙擊滑鼠左鍵</strong>
+            </li>
+            <li>
+              在帳號列上按右鍵 → 選
+              <strong>✎ 編輯</strong>
+            </li>
+          </ul>
+          <div class="callout callout-info">
+            <span class="callout-icon">ℹ️</span>
+            <div>
+              編輯模式下，
+              <strong>「社群平台」欄位為唯讀</strong>
+              （顯示為藍色文字，無法更改）。若需要更換平台，請刪除帳號後重新新增。
+            </div>
+          </div>
+          <p>可修改的欄位：來源設定 URL、自訂名稱、備註、發文間隔。</p>
+        </section>
+
+        <!-- 08 批次間隔 -->
+        <section id="s8">
+          <h2>
+            <span class="section-num">8</span>
+            批次修改發文間隔
+          </h2>
+          <p>若要同時調整多個帳號的發文頻率：</p>
+          <ol class="steps">
+            <li>
+              <span>
+                在帳號列最左欄的
+                <strong>「選取」</strong>
+                勾選框打勾（可同時勾選多個帳號）
+              </span>
+            </li>
+            <li>
+              <span>
+                工具列的
+                <kbd>⏱ 更改選取發文間隔</kbd>
+                按鈕變為可點擊
+              </span>
+            </li>
+            <li>
+              <span>
+                點擊後在對話框中輸入新的
+                <strong>最短（分鐘）</strong>
+                和
+                <strong>最長（分鐘）</strong>
+              </span>
+            </li>
+            <li>
+              <span>
+                點
+                <kbd>確定</kbd>
+                套用至所有已選取的帳號
+              </span>
+            </li>
+          </ol>
+          <div class="callout callout-warn">
+            <span class="callout-icon">⚠️</span>
+            <div>最短間隔必須小於最長間隔，否則無法確定儲存。</div>
+          </div>
+        </section>
+
+        <!-- 09 平台篩選 -->
+        <section id="s9">
+          <h2>
+            <span class="section-num">9</span>
+            平台篩選
+          </h2>
+          <p>
+            畫面頂部篩選列有四個按鈕：
+            <kbd>全部</kbd>
+            <kbd>Instagram</kbd>
+            <kbd>X</kbd>
+            <kbd>Facebook</kbd>
+          </p>
+          <table>
+            <tbody>
+              <tr>
+                <td><strong>帳號清單</strong></td>
+                <td>只顯示對應平台的帳號</td>
+              </tr>
+              <tr>
+                <td><strong>全部啟動 / 全部停止</strong></td>
+                <td>只對目前篩選的平台生效</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            點選
+            <kbd>全部</kbd>
+            可回到顯示所有帳號的狀態。
+          </p>
+        </section>
+
+        <!-- 10 右鍵選單 -->
+        <section id="s10">
+          <h2>
+            <span class="section-num">10</span>
+            右鍵選單
+          </h2>
+          <p>
+            在帳號表格任一列按
+            <kbd>右鍵</kbd>
+            ，可操作：
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>選項</th>
+                <th>說明</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>▶ 啟動</strong></td>
+                <td>啟動此帳號的自動化 Worker</td>
+              </tr>
+              <tr>
+                <td><strong>■ 停止</strong></td>
+                <td>停止此帳號的 Worker</td>
+              </tr>
+              <tr>
+                <td><strong>✎ 編輯</strong></td>
+                <td>開啟帳號編輯視窗</td>
+              </tr>
+              <tr>
+                <td><strong>📂 開啟帳號資料夾</strong></td>
+                <td>用檔案總管開啟帳號資料夾（可查看下載的影片、日誌等）</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- 11 日誌 -->
+        <section id="s11">
+          <h2>
+            <span class="section-num">11</span>
+            執行日誌
+          </h2>
+          <p>
+            畫面底部的日誌面板即時顯示所有帳號的執行記錄，依顏色區分重要程度：
+          </p>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <span class="log-green">■</span>
+                  <strong>綠色</strong>
+                </td>
+                <td>一般資訊：下載進度、發文成功、等待中等正常狀態</td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="log-yellow">■</span>
+                  <strong>黃色</strong>
+                </td>
+                <td>
+                  警告：影片檔案太小、無下載連結、CDN 連結過期等，系統會自動處理
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="log-red">■</span>
+                  <strong>紅色</strong>
+                </td>
+                <td>
+                  錯誤：需要注意，可能需要人工介入（例如帳號被登出、網路問題）
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            點
+            <kbd>清除</kbd>
+            可清空畫面上的日誌顯示，不影響磁碟上儲存的日誌檔案。
+          </p>
+        </section>
+
+        <!-- 12 托盤 -->
+        <section id="s12">
+          <h2>
+            <span class="section-num">12</span>
+            最小化與系統托盤
+          </h2>
+          <ol class="steps">
+            <li>
+              <span>
+                點擊視窗右上角
+                <strong>最小化</strong>
+                按鈕，程式縮入系統托盤（右下角），
+                <strong>背景繼續執行</strong>
+              </span>
+            </li>
+            <li>
+              <span>
+                托盤圖示
+                <strong>雙擊</strong>
+                可還原視窗
+              </span>
+            </li>
+            <li>
+              <span>
+                托盤圖示
+                <strong>右鍵</strong>
+                可選「顯示」或「離開」
+              </span>
+            </li>
+          </ol>
+          <div class="callout callout-tip">
+            <span class="callout-icon">💡</span>
+            <div>
+              關閉視窗時，若仍有帳號在執行中，程式會彈出確認視窗，確認後才會完全關閉。
+            </div>
+          </div>
+        </section>
+
+        <!-- 13 重新整理 -->
+        <section id="s13">
+          <h2>
+            <span class="section-num">13</span>
+            重新整理
+          </h2>
+          <p>
+            點擊右上角
+            <kbd>⟳ 重新整理</kbd>
+            按鈕，程式會重新掃描
+            <code>accounts/</code>
+            目錄並載入最新帳號設定。
+          </p>
+          <p>適用情境：手動修改帳號設定檔後，或在程式外新增了帳號資料夾。</p>
+        </section>
+
+        <!-- 14 發文流程 -->
+        <section id="s14">
+          <h2>
+            <span class="section-num">14</span>
+            發文流程說明
+          </h2>
+          <p>帳號啟動後，系統全自動依序執行以下步驟（無需人工介入）：</p>
+
+          <div class="flow">
+            <div class="flow-item">
+              <div style="position: relative;">
+                <div class="flow-dot">1</div>
+                <div class="flow-line"></div>
+              </div>
+              <div class="flow-content">
+                <strong>檢查未上傳影片</strong>
+                <span>
+                  優先處理已下載但尚未發文的影片（例如上次上傳失敗的內容）
+                </span>
+              </div>
+            </div>
+            <div class="flow-item">
+              <div style="position: relative;">
+                <div class="flow-dot">2</div>
+                <div class="flow-line"></div>
+              </div>
+              <div class="flow-content">
+                <strong>從本地快取找影片</strong>
+                <span>讀取已保存的抖音 API 資料，找出尚未發文的影片並下載</span>
+              </div>
+            </div>
+            <div class="flow-item">
+              <div style="position: relative;">
+                <div class="flow-dot">3</div>
+                <div class="flow-line"></div>
+              </div>
+              <div class="flow-content">
+                <strong>呼叫 API 取得新影片（快取全部發完才執行）</strong>
+                <span>向抖音 API 請求最新影片清單，儲存後繼續下載</span>
+              </div>
+            </div>
+            <div class="flow-item">
+              <div style="position: relative;">
+                <div class="flow-dot">4</div>
+                <div class="flow-line"></div>
+              </div>
+              <div class="flow-content">
+                <strong>上傳至社群平台</strong>
+                <span>自動操作瀏覽器，將影片發布至 Instagram 或 X</span>
+              </div>
+            </div>
+            <div class="flow-item">
+              <div style="position: relative;">
+                <div class="flow-dot">5</div>
+                <div class="flow-line"></div>
+              </div>
+              <div class="flow-content">
+                <strong>模擬人類瀏覽行為</strong>
+                <span>
+                  上傳後自動捲動瀏覽頁面，降低帳號被偵測為機器人的風險
+                </span>
+              </div>
+            </div>
+            <div class="flow-item">
+              <div style="position: relative;">
+                <div class="flow-dot">6</div>
+                <div class="flow-line"></div>
+              </div>
+              <div class="flow-content">
+                <strong>等待下次發文</strong>
+                <span>
+                  依設定的發文間隔（最短 ～ 最長分鐘）隨機等待，再重複以上步驟
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="callout callout-info">
+            <span class="callout-icon">ℹ️</span>
+            <div>
+              系統不會重複發布同一支影片。每筆影片發文成功後會記錄在帳號的
+              <code>content_log.json</code>
+              中，下次執行時自動跳過已發文內容。
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,833 @@
+{
+  "fetched_at": "2026-05-03 20:29:21",
+  "api_url": "https://api.tikhub.io/api/v1/douyin/app/v3/fetch_user_post_videos?sec_user_id=MS4wLjABAAAAn2USLHZ2wvxzPf8D5hN710YTW3GEPHe01DrPJuJgkTJBmvmdk7lu6-b6uBqKu0xp&max_cursor=0&count=20",
+  "data": {
+    "code": 200,
+    "data": {
+      "aweme_list": [
+        {
+          "aweme_id": "7635334607415545114",
+          "desc": "“应该还能抢救一下” #保护动物 #动物",
+          "media_type": 4,
+          "video": {
+            "width": 576,
+            "height": 1024,
+            "play_addr_h264": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/06e6585ff6d3902e7e71c7eaa0eb9507/69f74dfa/video/tos/cn/tos-cn-ve-15/ogkkuF5BEIfQAL7QE2femp1A7gNLTDEVBgx2C1/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2258&bt=2258&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=O2VnZjo1Nmk0Ozc6OzwzZEBpanFkPGw5cmc1OjMzNGkzM0AtMzVfMzE1NjUxXmEwNWFhYSM2ZGliMmRjY29hLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/0fbe36b414cbbfa05624734e076cb27f/69f74dfa/video/tos/cn/tos-cn-ve-15/ogkkuF5BEIfQAL7QE2femp1A7gNLTDEVBgx2C1/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2258&bt=2258&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=O2VnZjo1Nmk0Ozc6OzwzZEBpanFkPGw5cmc1OjMzNGkzM0AtMzVfMzE1NjUxXmEwNWFhYSM2ZGliMmRjY29hLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7r2fdfog65ie9lagn9g&line=0&file_id=dad08938d7a448819f834267bc8d6b08&sign=bd47619de0e1d2380733aa84d2455190&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7r2fdfog65ie9lagn9g&line=1&file_id=dad08938d7a448819f834267bc8d6b08&sign=bd47619de0e1d2380733aa84d2455190&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/06e6585ff6d3902e7e71c7eaa0eb9507/69f74dfa/video/tos/cn/tos-cn-ve-15/ogkkuF5BEIfQAL7QE2femp1A7gNLTDEVBgx2C1/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2258&bt=2258&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=O2VnZjo1Nmk0Ozc6OzwzZEBpanFkPGw5cmc1OjMzNGkzM0AtMzVfMzE1NjUxXmEwNWFhYSM2ZGliMmRjY29hLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/0fbe36b414cbbfa05624734e076cb27f/69f74dfa/video/tos/cn/tos-cn-ve-15/ogkkuF5BEIfQAL7QE2femp1A7gNLTDEVBgx2C1/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2258&bt=2258&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=O2VnZjo1Nmk0Ozc6OzwzZEBpanFkPGw5cmc1OjMzNGkzM0AtMzVfMzE1NjUxXmEwNWFhYSM2ZGliMmRjY29hLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7r2fdfog65ie9lagn9g&line=0&file_id=dad08938d7a448819f834267bc8d6b08&sign=bd47619de0e1d2380733aa84d2455190&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7r2fdfog65ie9lagn9g&line=1&file_id=dad08938d7a448819f834267bc8d6b08&sign=bd47619de0e1d2380733aa84d2455190&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr_265": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/efd750c3faed95f5649ee7db72da6abe/69f74dfa/video/tos/cn/tos-cn-ve-15/oUqGiAAioIHyT9QgctAeXPExXTTaBfrBChGpm2/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=665&bt=665&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=PDs3ZDxnaDg8Njg2NGg8NUBpanFkPGw5cmc1OjMzNGkzM0BjNi0tYzEtNV4xMmMuNjY0YSM2ZGliMmRjY29hLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/e1c96df0839675fe119ba0a21fe10095/69f74dfa/video/tos/cn/tos-cn-ve-15/oUqGiAAioIHyT9QgctAeXPExXTTaBfrBChGpm2/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=665&bt=665&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=PDs3ZDxnaDg8Njg2NGg8NUBpanFkPGw5cmc1OjMzNGkzM0BjNi0tYzEtNV4xMmMuNjY0YSM2ZGliMmRjY29hLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7r2fdfog65ie9lagn9g&line=0&file_id=72999e11f35543a9850e4df90a0498f9&sign=1eb1e4dcd3d2c3ab2325fe1584b8b1fb&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7r2fdfog65ie9lagn9g&line=1&file_id=72999e11f35543a9850e4df90a0498f9&sign=1eb1e4dcd3d2c3ab2325fe1584b8b1fb&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "download_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/25c30ad9e81d4f0d9283bcb36c0cdf9d/69f74dfa/video/tos/cn/tos-cn-ve-15/oglFdVIRgBATrf7eaULEsHfhMa9qvBAyGCE7BJ/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2643&bt=2643&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=OTc2aTlpO2k1OTQzNTY0aUBpanFkPGw5cmc1OjMzNGkzM0BfLV40L2MxXjYxMmFeYjJjYSM2ZGliMmRjY29hLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/957ee99a84655797741d3d7d8871084a/69f74dfa/video/tos/cn/tos-cn-ve-15/oglFdVIRgBATrf7eaULEsHfhMa9qvBAyGCE7BJ/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2643&bt=2643&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=OTc2aTlpO2k1OTQzNTY0aUBpanFkPGw5cmc1OjMzNGkzM0BfLV40L2MxXjYxMmFeYjJjYSM2ZGliMmRjY29hLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7r2fdfog65ie9lagn9g&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3Jx_AfESRKvePEcuaUtIwycHuwTcZpAJwInMsQ_O3T9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7r2fdfog65ie9lagn9g&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3Jx_AfESRKvePEcuaUtIwycHuwTcZpAJwInMsQ_O3T9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH"
+              ]
+            }
+          }
+        },
+        {
+          "aweme_id": "7634940248086170880",
+          "desc": "捡到这些石头，下半辈子直接躺平！ #奇石 #玉石 #科普一下",
+          "media_type": 4,
+          "video": {
+            "width": 576,
+            "height": 1016,
+            "play_addr_h264": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/230343a82572c16f3eb30a0344133b31/69f74e1e/video/tos/cn/tos-cn-ve-15/oo6AifM0Vgp9DKWEQ9sEASBNxA9FIWItpfEkL3/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1626&bt=1626&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NzRkNGg5OGc5ZWYzMzVkN0BpM3l0OHA5cjdmOjMzNGkzM0BeNTRhYy9iNjQxLzY2X2NiYSNlaWs2MmRrL25hLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/8a8d23d5b203f0ef7245b526c5dd5584/69f74e1e/video/tos/cn/tos-cn-ve-15/oo6AifM0Vgp9DKWEQ9sEASBNxA9FIWItpfEkL3/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1626&bt=1626&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NzRkNGg5OGc5ZWYzMzVkN0BpM3l0OHA5cjdmOjMzNGkzM0BeNTRhYy9iNjQxLzY2X2NiYSNlaWs2MmRrL25hLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7qc24nog65m95nqlvh0&line=0&file_id=e4fab290902c4b769de526fed17a81a4&sign=ca6a695ad1fb43d9fca3fc7d19961db5&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7qc24nog65m95nqlvh0&line=1&file_id=e4fab290902c4b769de526fed17a81a4&sign=ca6a695ad1fb43d9fca3fc7d19961db5&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/230343a82572c16f3eb30a0344133b31/69f74e1e/video/tos/cn/tos-cn-ve-15/oo6AifM0Vgp9DKWEQ9sEASBNxA9FIWItpfEkL3/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1626&bt=1626&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NzRkNGg5OGc5ZWYzMzVkN0BpM3l0OHA5cjdmOjMzNGkzM0BeNTRhYy9iNjQxLzY2X2NiYSNlaWs2MmRrL25hLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/8a8d23d5b203f0ef7245b526c5dd5584/69f74e1e/video/tos/cn/tos-cn-ve-15/oo6AifM0Vgp9DKWEQ9sEASBNxA9FIWItpfEkL3/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1626&bt=1626&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NzRkNGg5OGc5ZWYzMzVkN0BpM3l0OHA5cjdmOjMzNGkzM0BeNTRhYy9iNjQxLzY2X2NiYSNlaWs2MmRrL25hLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7qc24nog65m95nqlvh0&line=0&file_id=e4fab290902c4b769de526fed17a81a4&sign=ca6a695ad1fb43d9fca3fc7d19961db5&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7qc24nog65m95nqlvh0&line=1&file_id=e4fab290902c4b769de526fed17a81a4&sign=ca6a695ad1fb43d9fca3fc7d19961db5&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr_265": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/6cb24e05b876464ff81c7a23aa2bc25e/69f74e1e/video/tos/cn/tos-cn-ve-15/ooT09pHk9LtEA0xjAAEUfsEfS99gsFIDQVNBiM/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=536&bt=536&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ODc2M2Y8ZjY0NDlmaDZlaEBpM3l0OHA5cjdmOjMzNGkzM0BeLWEvLWM2NWIxLzVeLWJjYSNlaWs2MmRrL25hLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/0b8eb2cab9f926306dca360005de019c/69f74e1e/video/tos/cn/tos-cn-ve-15/ooT09pHk9LtEA0xjAAEUfsEfS99gsFIDQVNBiM/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=536&bt=536&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ODc2M2Y8ZjY0NDlmaDZlaEBpM3l0OHA5cjdmOjMzNGkzM0BeLWEvLWM2NWIxLzVeLWJjYSNlaWs2MmRrL25hLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7qc24nog65m95nqlvh0&line=0&file_id=feeb03ae8c2641e1839cf90c20d304a5&sign=eacf5a4297b7e8b5bfc0eec13b6606cb&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7qc24nog65m95nqlvh0&line=1&file_id=feeb03ae8c2641e1839cf90c20d304a5&sign=eacf5a4297b7e8b5bfc0eec13b6606cb&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "download_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/4709b3d5063c1c98eee20c79d075cd51/69f74e1e/video/tos/cn/tos-cn-ve-15/ogf07YELTQafBMBZwC6LB3III6GgJcArlAewkb/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2227&bt=2227&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZTk5NDQ8OWY6Mzw5ZGlpZ0BpM3l0OHA5cjdmOjMzNGkzM0AyNjFjYC8xNjQxNmAvYi1iYSNlaWs2MmRrL25hLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/cb71d1db7143145c68d67efd0c17a68f/69f74e1e/video/tos/cn/tos-cn-ve-15/ogf07YELTQafBMBZwC6LB3III6GgJcArlAewkb/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2227&bt=2227&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZTk5NDQ8OWY6Mzw5ZGlpZ0BpM3l0OHA5cjdmOjMzNGkzM0AyNjFjYC8xNjQxNmAvYi1iYSNlaWs2MmRrL25hLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7qc24nog65m95nqlvh0&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JkfAfESRKvePEcuaUt91mIHOwTcZpBMAEntsb5LyE9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7qc24nog65m95nqlvh0&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JkfAfESRKvePEcuaUt91mIHOwTcZpBMAEntsb5LyE9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH"
+              ]
+            }
+          }
+        },
+        {
+          "aweme_id": "7634136749895175459",
+          "desc": "分享十种你可能从没见过的奇特水果！ #水果 #榴莲",
+          "media_type": 4,
+          "video": {
+            "width": 576,
+            "height": 1024,
+            "play_addr_h264": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/22816237ec015264c1057a8cf4eea9b9/69f74dfe/video/tos/cn/tos-cn-ve-15/okAbAAF0DixQQelElBxPBi8fjBITTHI4IJGmkg/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1685&bt=1685&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NWQ8ZDNkO2c8NWU3ZDlkZ0Bpajtyc3I5cmt4OjMzNGkzM0BfYjAvLS8yNjExMi1hXzIwYSMtYDE2MmQ0X2xhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/7dfa21e416e002e9f66366b8334bb106/69f74dfe/video/tos/cn/tos-cn-ve-15/okAbAAF0DixQQelElBxPBi8fjBITTHI4IJGmkg/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1685&bt=1685&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NWQ8ZDNkO2c8NWU3ZDlkZ0Bpajtyc3I5cmt4OjMzNGkzM0BfYjAvLS8yNjExMi1hXzIwYSMtYDE2MmQ0X2xhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7oubh7og65o9p4oc80g&line=0&file_id=3d5ab6da045b42499d582a002a39eab2&sign=2a057397eabcf4b61725adcecafe3c81&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7oubh7og65o9p4oc80g&line=1&file_id=3d5ab6da045b42499d582a002a39eab2&sign=2a057397eabcf4b61725adcecafe3c81&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/22816237ec015264c1057a8cf4eea9b9/69f74dfe/video/tos/cn/tos-cn-ve-15/okAbAAF0DixQQelElBxPBi8fjBITTHI4IJGmkg/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1685&bt=1685&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NWQ8ZDNkO2c8NWU3ZDlkZ0Bpajtyc3I5cmt4OjMzNGkzM0BfYjAvLS8yNjExMi1hXzIwYSMtYDE2MmQ0X2xhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/7dfa21e416e002e9f66366b8334bb106/69f74dfe/video/tos/cn/tos-cn-ve-15/okAbAAF0DixQQelElBxPBi8fjBITTHI4IJGmkg/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1685&bt=1685&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NWQ8ZDNkO2c8NWU3ZDlkZ0Bpajtyc3I5cmt4OjMzNGkzM0BfYjAvLS8yNjExMi1hXzIwYSMtYDE2MmQ0X2xhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7oubh7og65o9p4oc80g&line=0&file_id=3d5ab6da045b42499d582a002a39eab2&sign=2a057397eabcf4b61725adcecafe3c81&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7oubh7og65o9p4oc80g&line=1&file_id=3d5ab6da045b42499d582a002a39eab2&sign=2a057397eabcf4b61725adcecafe3c81&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr_265": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/fe3e180a1fb9ffa8bc63104f4be09273/69f74dfe/video/tos/cn/tos-cn-ve-15/o8DBfUkA7HmBgT46QGVeXxPlAIAiyGi0gIBEGv/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=650&bt=650&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=OzY6Z2loOmVmM2VmaDU8OUBpajtyc3I5cmt4OjMzNGkzM0BhMl8wYDMxNWAxYjIzYTUtYSMtYDE2MmQ0X2xhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/b6ec6797c2836a18454f1bc2cd6681a2/69f74dfe/video/tos/cn/tos-cn-ve-15/o8DBfUkA7HmBgT46QGVeXxPlAIAiyGi0gIBEGv/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=650&bt=650&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=OzY6Z2loOmVmM2VmaDU8OUBpajtyc3I5cmt4OjMzNGkzM0BhMl8wYDMxNWAxYjIzYTUtYSMtYDE2MmQ0X2xhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7oubh7og65o9p4oc80g&line=0&file_id=0689d26e5ceb40cc8b476ecf3db753d8&sign=c080ebf5746064f40d43ae3d476e96a2&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7oubh7og65o9p4oc80g&line=1&file_id=0689d26e5ceb40cc8b476ecf3db753d8&sign=c080ebf5746064f40d43ae3d476e96a2&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "download_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/a01eae1bb19805cd180ec74dc269436a/69f74dfe/video/tos/cn/tos-cn-ve-15/oAllIDBTxBA15kXzqHi4Ae0QbAGgIBnfEmP6xi/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2338&bt=2338&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NTg4M2Y6Ozc6OWg7NmZlNkBpajtyc3I5cmt4OjMzNGkzM0BjYy00YDAxNWExNmJhNV5gYSMtYDE2MmQ0X2xhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/db3f17a63150346741ea500cf54f92c0/69f74dfe/video/tos/cn/tos-cn-ve-15/oAllIDBTxBA15kXzqHi4Ae0QbAGgIBnfEmP6xi/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2338&bt=2338&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NTg4M2Y6Ozc6OWg7NmZlNkBpajtyc3I5cmt4OjMzNGkzM0BjYy00YDAxNWExNmJhNV5gYSMtYDE2MmQ0X2xhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7oubh7og65o9p4oc80g&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JxvAfESRKvePEcuaUqcs2fCqwTcZpBsBBxMUUquTT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7oubh7og65o9p4oc80g&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JxvAfESRKvePEcuaUqcs2fCqwTcZpBsBBxMUUquTT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH"
+              ]
+            }
+          }
+        },
+        {
+          "aweme_id": "7633745882281676067",
+          "desc": "这些小时候的玩具，你还记得几个？ #怀旧 #90后",
+          "media_type": 4,
+          "video": {
+            "width": 576,
+            "height": 1024,
+            "play_addr_h264": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/acf586282ced409de44bb15b00538ba5/69f74e31/video/tos/cn/tos-cn-ve-15/osBAA2MezizX2AEQIpiB5nv1EtGngEcEADweL9/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1491&bt=1491&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Zmg5NjM5Ozo6aWY0Z2dlOUBpamZqNHM5cng7OjMzNGkzM0AzX2FeYDJgNWExYmFhX18tYSNuajBvMmRrMWxhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/f52a59996865ff57bb2fbd43c87cc9d2/69f74e31/video/tos/cn/tos-cn-ve-15/osBAA2MezizX2AEQIpiB5nv1EtGngEcEADweL9/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1491&bt=1491&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Zmg5NjM5Ozo6aWY0Z2dlOUBpamZqNHM5cng7OjMzNGkzM0AzX2FeYDJgNWExYmFhX18tYSNuajBvMmRrMWxhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7o84unog65pr13gmcqg&line=0&file_id=06bbbdddd1ec4fd787c856c0a3d6be6c&sign=0a9939ee6f3fbbf0afcc41dacf86b180&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7o84unog65pr13gmcqg&line=1&file_id=06bbbdddd1ec4fd787c856c0a3d6be6c&sign=0a9939ee6f3fbbf0afcc41dacf86b180&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/acf586282ced409de44bb15b00538ba5/69f74e31/video/tos/cn/tos-cn-ve-15/osBAA2MezizX2AEQIpiB5nv1EtGngEcEADweL9/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1491&bt=1491&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Zmg5NjM5Ozo6aWY0Z2dlOUBpamZqNHM5cng7OjMzNGkzM0AzX2FeYDJgNWExYmFhX18tYSNuajBvMmRrMWxhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/f52a59996865ff57bb2fbd43c87cc9d2/69f74e31/video/tos/cn/tos-cn-ve-15/osBAA2MezizX2AEQIpiB5nv1EtGngEcEADweL9/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1491&bt=1491&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Zmg5NjM5Ozo6aWY0Z2dlOUBpamZqNHM5cng7OjMzNGkzM0AzX2FeYDJgNWExYmFhX18tYSNuajBvMmRrMWxhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7o84unog65pr13gmcqg&line=0&file_id=06bbbdddd1ec4fd787c856c0a3d6be6c&sign=0a9939ee6f3fbbf0afcc41dacf86b180&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7o84unog65pr13gmcqg&line=1&file_id=06bbbdddd1ec4fd787c856c0a3d6be6c&sign=0a9939ee6f3fbbf0afcc41dacf86b180&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr_265": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/a4bfdac93745af2e00c206f80c93f242/69f74e31/video/tos/cn/tos-cn-ve-15/o4sRAf4gYwjKBTTURLQ1BSInhGnWedAz7ACTfG/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=622&bt=622&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NDk1ZDczZjs1M2g4MzNpPEBpamZqNHM5cng7OjMzNGkzM0BjX14xMF8xXi0xMTJeLjNfYSNuajBvMmRrMWxhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/e04a33f758acabf55d73cb88f842698b/69f74e31/video/tos/cn/tos-cn-ve-15/o4sRAf4gYwjKBTTURLQ1BSInhGnWedAz7ACTfG/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=622&bt=622&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NDk1ZDczZjs1M2g4MzNpPEBpamZqNHM5cng7OjMzNGkzM0BjX14xMF8xXi0xMTJeLjNfYSNuajBvMmRrMWxhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7o84unog65pr13gmcqg&line=0&file_id=b96f10a0554e4002a84cb0344aa2b6f1&sign=c79982ca0230fcd8ff8cc3dba4554f0c&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7o84unog65pr13gmcqg&line=1&file_id=b96f10a0554e4002a84cb0344aa2b6f1&sign=c79982ca0230fcd8ff8cc3dba4554f0c&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "download_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/ea0031e5eab12b99767c7140bfa65d3c/69f74e31/video/tos/cn/tos-cn-ve-15/oAvgGRDvAATBBYnz7LeRQTGCeL4EUIBsekw1CC/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2145&bt=2145&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZTlnOGY3MzM2N2g4aTxkM0BpamZqNHM5cng7OjMzNGkzM0BjMS1iLmNgNS8xMzY2YzVfYSNuajBvMmRrMWxhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/8cfdac3b1a7fed993badf2c1596068ec/69f74e31/video/tos/cn/tos-cn-ve-15/oAvgGRDvAATBBYnz7LeRQTGCeL4EUIBsekw1CC/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2145&bt=2145&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZTlnOGY3MzM2N2g4aTxkM0BpamZqNHM5cng7OjMzNGkzM0BjMS1iLmNgNS8xMzY2YzVfYSNuajBvMmRrMWxhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7o84unog65pr13gmcqg&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JxvAfESRKvePEcuaUqYZgYXOwTcZpGYsAw80a8aXT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7o84unog65pr13gmcqg&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JxvAfESRKvePEcuaUqYZgYXOwTcZpGYsAw80a8aXT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH"
+              ]
+            }
+          }
+        },
+        {
+          "aweme_id": "7633142035326848297",
+          "desc": "这些山野小萢，你都吃过几种？ #植物科普 #野果 #萢",
+          "media_type": 4,
+          "video": {
+            "width": 576,
+            "height": 1024,
+            "play_addr_h264": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/26634aeb0c543d1c24b1addcccc53507/69f74e0d/video/tos/cn/tos-cn-ve-15/oI1UjAfbN7Igye9XA1gmQmFEc01Q2pcADlAlBd/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2327&bt=2327&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=aTRkOjg8aDxnaTdlaTZkOkBpajtnNms5cnc4OjMzNGkzM0BgLWIxL14vXjUxLi5gMi00YSNgM2JpMmRjbmthLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/46d84bd5e327794132b6964a9e6522e9/69f74e0d/video/tos/cn/tos-cn-ve-15/oI1UjAfbN7Igye9XA1gmQmFEc01Q2pcADlAlBd/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2327&bt=2327&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=aTRkOjg8aDxnaTdlaTZkOkBpajtnNms5cnc4OjMzNGkzM0BgLWIxL14vXjUxLi5gMi00YSNgM2JpMmRjbmthLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7n5qtfog65hl3ed68cg&line=0&file_id=770a53cf1b144f8da92ea92547ea01cf&sign=87d438d03418c022763f7b683b296c0c&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7n5qtfog65hl3ed68cg&line=1&file_id=770a53cf1b144f8da92ea92547ea01cf&sign=87d438d03418c022763f7b683b296c0c&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/26634aeb0c543d1c24b1addcccc53507/69f74e0d/video/tos/cn/tos-cn-ve-15/oI1UjAfbN7Igye9XA1gmQmFEc01Q2pcADlAlBd/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2327&bt=2327&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=aTRkOjg8aDxnaTdlaTZkOkBpajtnNms5cnc4OjMzNGkzM0BgLWIxL14vXjUxLi5gMi00YSNgM2JpMmRjbmthLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/46d84bd5e327794132b6964a9e6522e9/69f74e0d/video/tos/cn/tos-cn-ve-15/oI1UjAfbN7Igye9XA1gmQmFEc01Q2pcADlAlBd/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2327&bt=2327&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=aTRkOjg8aDxnaTdlaTZkOkBpajtnNms5cnc4OjMzNGkzM0BgLWIxL14vXjUxLi5gMi00YSNgM2JpMmRjbmthLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7n5qtfog65hl3ed68cg&line=0&file_id=770a53cf1b144f8da92ea92547ea01cf&sign=87d438d03418c022763f7b683b296c0c&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7n5qtfog65hl3ed68cg&line=1&file_id=770a53cf1b144f8da92ea92547ea01cf&sign=87d438d03418c022763f7b683b296c0c&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr_265": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/cbef257a2667d40e9fef3e0ee7255d0a/69f74e0d/video/tos/cn/tos-cn-ve-15/okZ6XQNB0BZxIETiiIZyOAIqAAzuf9NgNeEwr6/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=726&bt=726&cs=2&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=OzVpZWg3aTo2ZDQ0Zzo0OUBpajtnNms5cnc4OjMzNGkzM0BeNl5fYC1fXmMxNmI0MjReYSNgM2JpMmRjbmthLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/1179faac651bd8d6a7818cf1b0ddf5f1/69f74e0d/video/tos/cn/tos-cn-ve-15/okZ6XQNB0BZxIETiiIZyOAIqAAzuf9NgNeEwr6/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=726&bt=726&cs=2&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=OzVpZWg3aTo2ZDQ0Zzo0OUBpajtnNms5cnc4OjMzNGkzM0BeNl5fYC1fXmMxNmI0MjReYSNgM2JpMmRjbmthLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7n5qtfog65hl3ed68cg&line=0&file_id=a671577de1914af3a7bf04cebbaf92a8&sign=6d4f2a90cf2b70e6711234ae5b3f14b9&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7n5qtfog65hl3ed68cg&line=1&file_id=a671577de1914af3a7bf04cebbaf92a8&sign=6d4f2a90cf2b70e6711234ae5b3f14b9&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "download_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/acaed5ffdfb9f99503201b358a0b966e/69f74e0d/video/tos/cn/tos-cn-ve-15/oQfBrXGVLShr3vcfg7YkACMBoGNgRaCeATL38I/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=3067&bt=3067&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZmU0Ozk4NDM3MzU4PGZpO0BpajtnNms5cnc4OjMzNGkzM0BgXl5eLWMyNl4xMi41MmBfYSNgM2JpMmRjbmthLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/70563ed29ef87783ed0f9ec57d1e6005/69f74e0d/video/tos/cn/tos-cn-ve-15/oQfBrXGVLShr3vcfg7YkACMBoGNgRaCeATL38I/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=3067&bt=3067&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZmU0Ozk4NDM3MzU4PGZpO0BpajtnNms5cnc4OjMzNGkzM0BgXl5eLWMyNl4xMi41MmBfYSNgM2JpMmRjbmthLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7n5qtfog65hl3ed68cg&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JkfAfESRKvePEcuaUqIslYHuwTcZpAZUClc5BqrfT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7n5qtfog65hl3ed68cg&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JkfAfESRKvePEcuaUqIslYHuwTcZpAZUClc5BqrfT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH"
+              ]
+            }
+          }
+        },
+        {
+          "aweme_id": "7632771269057924395",
+          "desc": "这些鱼可别随便吃，吃错直接重开！ #鱼 #动物科普",
+          "media_type": 4,
+          "video": {
+            "width": 576,
+            "height": 1024,
+            "play_addr_h264": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/3646ef1310c4f14c7658121778533f45/69f74e08/video/tos/cn/tos-cn-ve-15/oU7sIoivAkChF49tAQBAEMe1eB0gPBLAX0idPv/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2112&bt=2112&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=aWQ7OTNmNDQ0NmQ5NjRlZUBpM3Jwc285cjRqOjMzNGkzM0AyLmAxNjJiXjYxMl5hLTA0YSNobTAtMmQ0bWphLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/7280d011bb881ced6a6e7a93a5f8867e/69f74e08/video/tos/cn/tos-cn-ve-15/oU7sIoivAkChF49tAQBAEMe1eB0gPBLAX0idPv/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2112&bt=2112&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=aWQ7OTNmNDQ0NmQ5NjRlZUBpM3Jwc285cjRqOjMzNGkzM0AyLmAxNjJiXjYxMl5hLTA0YSNobTAtMmQ0bWphLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7mgp17og65l0p3mpok0&line=0&file_id=7b3b01d3a65a4391a1e15c9046c81a5f&sign=5f1f45bbcd799abdd6ba0c9d58ae07a1&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7mgp17og65l0p3mpok0&line=1&file_id=7b3b01d3a65a4391a1e15c9046c81a5f&sign=5f1f45bbcd799abdd6ba0c9d58ae07a1&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/3646ef1310c4f14c7658121778533f45/69f74e08/video/tos/cn/tos-cn-ve-15/oU7sIoivAkChF49tAQBAEMe1eB0gPBLAX0idPv/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2112&bt=2112&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=aWQ7OTNmNDQ0NmQ5NjRlZUBpM3Jwc285cjRqOjMzNGkzM0AyLmAxNjJiXjYxMl5hLTA0YSNobTAtMmQ0bWphLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/7280d011bb881ced6a6e7a93a5f8867e/69f74e08/video/tos/cn/tos-cn-ve-15/oU7sIoivAkChF49tAQBAEMe1eB0gPBLAX0idPv/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2112&bt=2112&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=aWQ7OTNmNDQ0NmQ5NjRlZUBpM3Jwc285cjRqOjMzNGkzM0AyLmAxNjJiXjYxMl5hLTA0YSNobTAtMmQ0bWphLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7mgp17og65l0p3mpok0&line=0&file_id=7b3b01d3a65a4391a1e15c9046c81a5f&sign=5f1f45bbcd799abdd6ba0c9d58ae07a1&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7mgp17og65l0p3mpok0&line=1&file_id=7b3b01d3a65a4391a1e15c9046c81a5f&sign=5f1f45bbcd799abdd6ba0c9d58ae07a1&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr_265": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/5071cf180e283bac8c46ecea2a2e7a28/69f74e08/video/tos/cn/tos-cn-ve-15/oEMAfQFjBMV2tEn0vBWeAkiQ7AoeBiJ8BACTTh/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=738&bt=738&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=O2VmOTM4NWhkNTo6N2c2NEBpM3Jwc285cjRqOjMzNGkzM0AvMjQyXl41XmMxYS00YTQuYSNobTAtMmQ0bWphLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/5011e271a74fc2115f7a803658882044/69f74e08/video/tos/cn/tos-cn-ve-15/oEMAfQFjBMV2tEn0vBWeAkiQ7AoeBiJ8BACTTh/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=738&bt=738&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=O2VmOTM4NWhkNTo6N2c2NEBpM3Jwc285cjRqOjMzNGkzM0AvMjQyXl41XmMxYS00YTQuYSNobTAtMmQ0bWphLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7mgp17og65l0p3mpok0&line=0&file_id=1173dd7407d742faae82a5a0567c5b28&sign=eb8f702dc144dd27a2aaa5f11f493c03&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7mgp17og65l0p3mpok0&line=1&file_id=1173dd7407d742faae82a5a0567c5b28&sign=eb8f702dc144dd27a2aaa5f11f493c03&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "download_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/fcb86ccf5d00a58d0b80b862351ebea1/69f74e08/video/tos/cn/tos-cn-ve-15/oIIDXgeQpXAthx7tBqFEgyDEA7A9HW3IQDfZCQ/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2741&bt=2741&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=PDdoPDo3Zmk7Njk1aGRpOUBpM3Jwc285cjRqOjMzNGkzM0AuLS4tX18yNS8xLS1hYzFgYSNobTAtMmQ0bWphLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/2603242b6149937c5fb58027ee5726f7/69f74e08/video/tos/cn/tos-cn-ve-15/oIIDXgeQpXAthx7tBqFEgyDEA7A9HW3IQDfZCQ/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2741&bt=2741&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=PDdoPDo3Zmk7Njk1aGRpOUBpM3Jwc285cjRqOjMzNGkzM0AuLS4tX18yNS8xLS1hYzFgYSNobTAtMmQ0bWphLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7mgp17og65l0p3mpok0&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3Jx_AfESRKvePEcuaUq9kkJSqwTcZpBclBw8cH_b-E9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7mgp17og65l0p3mpok0&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3Jx_AfESRKvePEcuaUq9kkJSqwTcZpBclBw8cH_b-E9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH"
+              ]
+            }
+          }
+        },
+        {
+          "aweme_id": "7631598751060167955",
+          "desc": "带你认识11种竹笋，你吃过几种？ #竹子 #植物科普",
+          "media_type": 4,
+          "video": {
+            "width": 576,
+            "height": 1024,
+            "play_addr_h264": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/ab6ee3775d140d9abf6abf7ba8b2525e/69f74def/video/tos/cn/tos-cn-ve-15/oMyAA6FCeIAOwqtTHByJRfgVWgEohBDvpQQ9wF/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2715&bt=2715&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZGZmOWk0NjxmM2k2OjhpOEBpanIzZG45cmtoOjMzNGkzM0BgMGMuLS40XmIxXl41YTMzYSMyNGE1MmRjMWhhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/da39e2a428589621caef038dd112c78b/69f74def/video/tos/cn/tos-cn-ve-15/oMyAA6FCeIAOwqtTHByJRfgVWgEohBDvpQQ9wF/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2715&bt=2715&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZGZmOWk0NjxmM2k2OjhpOEBpanIzZG45cmtoOjMzNGkzM0BgMGMuLS40XmIxXl41YTMzYSMyNGE1MmRjMWhhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7ke4hfog65k8ad07o5g&line=0&file_id=656fd587a3af40eca973110f16fc3cca&sign=7135033d4cd9ab80afbaf7645c414311&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7ke4hfog65k8ad07o5g&line=1&file_id=656fd587a3af40eca973110f16fc3cca&sign=7135033d4cd9ab80afbaf7645c414311&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/ab6ee3775d140d9abf6abf7ba8b2525e/69f74def/video/tos/cn/tos-cn-ve-15/oMyAA6FCeIAOwqtTHByJRfgVWgEohBDvpQQ9wF/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2715&bt=2715&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZGZmOWk0NjxmM2k2OjhpOEBpanIzZG45cmtoOjMzNGkzM0BgMGMuLS40XmIxXl41YTMzYSMyNGE1MmRjMWhhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/da39e2a428589621caef038dd112c78b/69f74def/video/tos/cn/tos-cn-ve-15/oMyAA6FCeIAOwqtTHByJRfgVWgEohBDvpQQ9wF/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2715&bt=2715&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZGZmOWk0NjxmM2k2OjhpOEBpanIzZG45cmtoOjMzNGkzM0BgMGMuLS40XmIxXl41YTMzYSMyNGE1MmRjMWhhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7ke4hfog65k8ad07o5g&line=0&file_id=656fd587a3af40eca973110f16fc3cca&sign=7135033d4cd9ab80afbaf7645c414311&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7ke4hfog65k8ad07o5g&line=1&file_id=656fd587a3af40eca973110f16fc3cca&sign=7135033d4cd9ab80afbaf7645c414311&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr_265": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/0b3dfb479be2e1c2b1d37260659db7a1/69f74def/video/tos/cn/tos-cn-ve-15/ockoY4EXDgvIieZBKAnAtEaHAe24AwfZdClsAf/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=710&bt=710&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Njs0aGg6NTo7NGc3Zjo4aEBpanIzZG45cmtoOjMzNGkzM0AzXzYzYl82NS4xM15eL2E2YSMyNGE1MmRjMWhhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/6e4f707e4b9a6c08485afd34c5b9a706/69f74def/video/tos/cn/tos-cn-ve-15/ockoY4EXDgvIieZBKAnAtEaHAe24AwfZdClsAf/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=710&bt=710&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Njs0aGg6NTo7NGc3Zjo4aEBpanIzZG45cmtoOjMzNGkzM0AzXzYzYl82NS4xM15eL2E2YSMyNGE1MmRjMWhhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7ke4hfog65k8ad07o5g&line=0&file_id=9ed527aca46d41188792b7ee6e91b863&sign=ae6892571ea37d6ab2bf0f5a5d4ca4d1&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7ke4hfog65k8ad07o5g&line=1&file_id=9ed527aca46d41188792b7ee6e91b863&sign=ae6892571ea37d6ab2bf0f5a5d4ca4d1&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "download_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/f3822f24c13850835884026ff4409060/69f74def/video/tos/cn/tos-cn-ve-15/o4fF8wufOpTtQgEG4QHFhAbDB00W6I9oJoCAgA/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=3212&bt=3212&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Nzo7Zjk4aTY6ZmRkOTQ3NkBpanIzZG45cmtoOjMzNGkzM0BfNGIzYS5eXi8xYC8uMy1fYSMyNGE1MmRjMWhhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/6e24cced71f7283d4fa93eda537fd5b3/69f74def/video/tos/cn/tos-cn-ve-15/o4fF8wufOpTtQgEG4QHFhAbDB00W6I9oJoCAgA/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=3212&bt=3212&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Nzo7Zjk4aTY6ZmRkOTQ3NkBpanIzZG45cmtoOjMzNGkzM0BfNGIzYS5eXi8xYC8uMy1fYSMyNGE1MmRjMWhhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7ke4hfog65k8ad07o5g&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3Jx_AfESRKvePEcuaUrdtgfHuwTcZpAsFQlJpA_eHT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7ke4hfog65k8ad07o5g&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3Jx_AfESRKvePEcuaUrdtgfHuwTcZpAsFQlJpA_eHT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH"
+              ]
+            }
+          }
+        },
+        {
+          "aweme_id": "7630823952432090410",
+          "desc": "五一快到了，这些地方你敢去玩吗？ #地理科普 #景点",
+          "media_type": 4,
+          "video": {
+            "width": 576,
+            "height": 1024,
+            "play_addr_h264": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/3808f1700bab598529ee7f994cf46afa/69f74df8/video/tos/cn/tos-cn-ve-15/o4fsKxSD8BAis2zIQEJlyTAVC3Dgs0nSBAemiH/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2179&bt=2179&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NGk6ZDg4NDg7NGc0Nmg4O0BpajVqbmw5cjw1OjMzNGkzM0BjYl9jLTBgNTQxMmE0NS0uYSNtZmlvMmRjMGdhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/c0a342d6a40d72d870524f426624b26e/69f74df8/video/tos/cn/tos-cn-ve-15/o4fsKxSD8BAis2zIQEJlyTAVC3Dgs0nSBAemiH/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2179&bt=2179&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NGk6ZDg4NDg7NGc0Nmg4O0BpajVqbmw5cjw1OjMzNGkzM0BjYl9jLTBgNTQxMmE0NS0uYSNtZmlvMmRjMGdhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7j239fog65irklgi2pg&line=0&file_id=18058e73d15d417885c13505fab7eff1&sign=7dd185898a6c4abddab82050279418c6&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7j239fog65irklgi2pg&line=1&file_id=18058e73d15d417885c13505fab7eff1&sign=7dd185898a6c4abddab82050279418c6&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/3808f1700bab598529ee7f994cf46afa/69f74df8/video/tos/cn/tos-cn-ve-15/o4fsKxSD8BAis2zIQEJlyTAVC3Dgs0nSBAemiH/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2179&bt=2179&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NGk6ZDg4NDg7NGc0Nmg4O0BpajVqbmw5cjw1OjMzNGkzM0BjYl9jLTBgNTQxMmE0NS0uYSNtZmlvMmRjMGdhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/c0a342d6a40d72d870524f426624b26e/69f74df8/video/tos/cn/tos-cn-ve-15/o4fsKxSD8BAis2zIQEJlyTAVC3Dgs0nSBAemiH/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2179&bt=2179&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NGk6ZDg4NDg7NGc0Nmg4O0BpajVqbmw5cjw1OjMzNGkzM0BjYl9jLTBgNTQxMmE0NS0uYSNtZmlvMmRjMGdhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7j239fog65irklgi2pg&line=0&file_id=18058e73d15d417885c13505fab7eff1&sign=7dd185898a6c4abddab82050279418c6&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7j239fog65irklgi2pg&line=1&file_id=18058e73d15d417885c13505fab7eff1&sign=7dd185898a6c4abddab82050279418c6&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr_265": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/c8be4bf726f7cd0e5746368618098196/69f74df8/video/tos/cn/tos-cn-ve-15/oIpND7MulBFQiAF9lASIlekgL5AYgFfnNGVDEm/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=623&bt=623&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=aDw3NDllMzozZWg2NThpOkBpajVqbmw5cjw1OjMzNGkzM0BjNjIzYWA1NS8xXjRiLV8tYSNtZmlvMmRjMGdhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/4fab38e6272f0b8fe92e5fc3454b5dff/69f74df8/video/tos/cn/tos-cn-ve-15/oIpND7MulBFQiAF9lASIlekgL5AYgFfnNGVDEm/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=623&bt=623&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=aDw3NDllMzozZWg2NThpOkBpajVqbmw5cjw1OjMzNGkzM0BjNjIzYWA1NS8xXjRiLV8tYSNtZmlvMmRjMGdhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7j239fog65irklgi2pg&line=0&file_id=07bf05e273ae4b208780cbd6615499fe&sign=3190e1e912302dbf95e53e195824a625&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7j239fog65irklgi2pg&line=1&file_id=07bf05e273ae4b208780cbd6615499fe&sign=3190e1e912302dbf95e53e195824a625&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "download_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/31520f29adba0367c199cb3cbf9c0fc8/69f74df8/video/tos/cn/tos-cn-ve-15/oAzlFgEIQAgplf5flRFDMpnSmGGYtAAuDBi9gl/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2757&bt=2757&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=O2k6NWc7aDY0M2kzNzg0Z0BpajVqbmw5cjw1OjMzNGkzM0AuMDRjNWJfNTIxNWEwM18yYSNtZmlvMmRjMGdhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/dd4510261aa34994cdbfa9e6acd2cf39/69f74df8/video/tos/cn/tos-cn-ve-15/oAzlFgEIQAgplf5flRFDMpnSmGGYtAAuDBi9gl/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2757&bt=2757&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=O2k6NWc7aDY0M2kzNzg0Z0BpajVqbmw5cjw1OjMzNGkzM0AuMDRjNWJfNTIxNWEwM18yYSNtZmlvMmRjMGdhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7j239fog65irklgi2pg&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JxvAfESRKvePEcuaUrIxnLXuwTcZpAItanM0eoKTT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7j239fog65irklgi2pg&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JxvAfESRKvePEcuaUrIxnLXuwTcZpAItanM0eoKTT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH"
+              ]
+            }
+          }
+        },
+        {
+          "aweme_id": "7629795909647355145",
+          "desc": "有趣的动物 #动物 #动物科普",
+          "media_type": 4,
+          "video": {
+            "width": 576,
+            "height": 1024,
+            "play_addr_h264": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/a8a376c6e0ef5d8f76936d85c3bd1966/69f74e1e/video/tos/cn/tos-cn-ve-15/o487gBPFszVKvdeFheCQRY64ABXzBTAPxDMaeQ/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1726&bt=1726&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NztnMzw2OjZkOTY2OTg5NUBpanJ0ZXg5cnQ6OjMzNGkzM0BiMTE1YDMyXjMxYC1iNDEyYSNhLnFgMmRrZ2VhLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/870a6be37926d70a68f857ede513d4ff/69f74e1e/video/tos/cn/tos-cn-ve-15/o487gBPFszVKvdeFheCQRY64ABXzBTAPxDMaeQ/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1726&bt=1726&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NztnMzw2OjZkOTY2OTg5NUBpanJ0ZXg5cnQ6OjMzNGkzM0BiMTE1YDMyXjMxYC1iNDEyYSNhLnFgMmRrZ2VhLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7h7jqnog65ucbtq1odg&line=0&file_id=524675e603c3466aa35763c9804d48e4&sign=c8ae9c77276133a88f215c19908f925d&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7h7jqnog65ucbtq1odg&line=1&file_id=524675e603c3466aa35763c9804d48e4&sign=c8ae9c77276133a88f215c19908f925d&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/a8a376c6e0ef5d8f76936d85c3bd1966/69f74e1e/video/tos/cn/tos-cn-ve-15/o487gBPFszVKvdeFheCQRY64ABXzBTAPxDMaeQ/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1726&bt=1726&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NztnMzw2OjZkOTY2OTg5NUBpanJ0ZXg5cnQ6OjMzNGkzM0BiMTE1YDMyXjMxYC1iNDEyYSNhLnFgMmRrZ2VhLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/870a6be37926d70a68f857ede513d4ff/69f74e1e/video/tos/cn/tos-cn-ve-15/o487gBPFszVKvdeFheCQRY64ABXzBTAPxDMaeQ/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1726&bt=1726&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NztnMzw2OjZkOTY2OTg5NUBpanJ0ZXg5cnQ6OjMzNGkzM0BiMTE1YDMyXjMxYC1iNDEyYSNhLnFgMmRrZ2VhLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7h7jqnog65ucbtq1odg&line=0&file_id=524675e603c3466aa35763c9804d48e4&sign=c8ae9c77276133a88f215c19908f925d&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7h7jqnog65ucbtq1odg&line=1&file_id=524675e603c3466aa35763c9804d48e4&sign=c8ae9c77276133a88f215c19908f925d&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr_265": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/c7f3fa311746565a8bb868358bb69f9d/69f74e1e/video/tos/cn/tos-cn-ve-15/oIibeFB9NDp74uAnhgJvAwbgIf4qYbAEcHEinQ/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=701&bt=701&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NzU4MztkPDczaTU4PGU0PEBpanJ0ZXg5cnQ6OjMzNGkzM0BeYzEtL180NmAxXjE2YDFjYSNhLnFgMmRrZ2VhLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/b4cc543cbcc084427e0fa4f27172448f/69f74e1e/video/tos/cn/tos-cn-ve-15/oIibeFB9NDp74uAnhgJvAwbgIf4qYbAEcHEinQ/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=701&bt=701&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NzU4MztkPDczaTU4PGU0PEBpanJ0ZXg5cnQ6OjMzNGkzM0BeYzEtL180NmAxXjE2YDFjYSNhLnFgMmRrZ2VhLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7h7jqnog65ucbtq1odg&line=0&file_id=f941cb9945a24fc09479ba280045f2a4&sign=0d253680ab0c003d190e0aea0c73fdf2&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7h7jqnog65ucbtq1odg&line=1&file_id=f941cb9945a24fc09479ba280045f2a4&sign=0d253680ab0c003d190e0aea0c73fdf2&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "download_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/81c1f26b054fff89781608f4e884e945/69f74e1e/video/tos/cn/tos-cn-ve-15/o08T4D7vBIMx6EfQ39XPVgTvBseeRACzPhBaFA/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2229&bt=2229&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZTRlNDs7OWg1Mzg1OmU1OkBpanJ0ZXg5cnQ6OjMzNGkzM0AuYF4yXl8uNmMxMC0uLV9gYSNhLnFgMmRrZ2VhLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/0da96a6c4446b2927100a88d83325173/69f74e1e/video/tos/cn/tos-cn-ve-15/o08T4D7vBIMx6EfQ39XPVgTvBseeRACzPhBaFA/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2229&bt=2229&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZTRlNDs7OWg1Mzg1OmU1OkBpanJ0ZXg5cnQ6OjMzNGkzM0AuYF4yXl8uNmMxMC0uLV9gYSNhLnFgMmRrZ2VhLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7h7jqnog65ucbtq1odg&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JkfAfESRKvePEcuaUrok-ZXOwTcZpHJpThNtG_bDT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d7h7jqnog65ucbtq1odg&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JkfAfESRKvePEcuaUrok-ZXOwTcZpHJpThNtG_bDT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH"
+              ]
+            }
+          }
+        },
+        {
+          "aweme_id": "7629348874884369690",
+          "desc": "“摄影界来了十二个天才！” #摄影天才 #抽象",
+          "media_type": 4,
+          "video": {
+            "width": 576,
+            "height": 1024,
+            "play_addr_h264": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/b42a96f5a188003c47866bc0fa8dd63f/69f74e06/video/tos/cn/tos-cn-ve-15/owCqAwGA6RTeLnyGxEeC7Az0vNjqFcB9AIBsfg/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1450&bt=1450&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NGY2Zzg1ODk6ZDo8ODtlO0Bpajt3NW05cnBoOjMzNGkzM0A1Xl8yMzUzXzUxNTFfYGA1YSNxbWk1MmRjLmRhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/53133732af52ce98705be4b9ce7c3545/69f74e06/video/tos/cn/tos-cn-ve-15/owCqAwGA6RTeLnyGxEeC7Az0vNjqFcB9AIBsfg/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1450&bt=1450&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NGY2Zzg1ODk6ZDo8ODtlO0Bpajt3NW05cnBoOjMzNGkzM0A1Xl8yMzUzXzUxNTFfYGA1YSNxbWk1MmRjLmRhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7ge1mfog65j82ltp8tg&line=0&file_id=88cbc8b549874a87b66582655db3ac81&sign=ce6926eaaaee9eac1812b926dd15d95a&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7ge1mfog65j82ltp8tg&line=1&file_id=88cbc8b549874a87b66582655db3ac81&sign=ce6926eaaaee9eac1812b926dd15d95a&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/b42a96f5a188003c47866bc0fa8dd63f/69f74e06/video/tos/cn/tos-cn-ve-15/owCqAwGA6RTeLnyGxEeC7Az0vNjqFcB9AIBsfg/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1450&bt=1450&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NGY2Zzg1ODk6ZDo8ODtlO0Bpajt3NW05cnBoOjMzNGkzM0A1Xl8yMzUzXzUxNTFfYGA1YSNxbWk1MmRjLmRhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/53133732af52ce98705be4b9ce7c3545/69f74e06/video/tos/cn/tos-cn-ve-15/owCqAwGA6RTeLnyGxEeC7Az0vNjqFcB9AIBsfg/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1450&bt=1450&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NGY2Zzg1ODk6ZDo8ODtlO0Bpajt3NW05cnBoOjMzNGkzM0A1Xl8yMzUzXzUxNTFfYGA1YSNxbWk1MmRjLmRhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7ge1mfog65j82ltp8tg&line=0&file_id=88cbc8b549874a87b66582655db3ac81&sign=ce6926eaaaee9eac1812b926dd15d95a&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7ge1mfog65j82ltp8tg&line=1&file_id=88cbc8b549874a87b66582655db3ac81&sign=ce6926eaaaee9eac1812b926dd15d95a&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr_265": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/f565f1f94758e68f7e9fad35fee5524a/69f74e06/video/tos/cn/tos-cn-ve-15/oMAAQ7ogrQ0EfBwFz3BHcIsaC87eiBig4WvA7K/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=552&bt=552&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Ozo0MzRpaDo1NDNnOGllO0Bpajt3NW05cnBoOjMzNGkzM0AyMC4vLmI2Xl8xMl4vYjBfYSNxbWk1MmRjLmRhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/1205d2b6e298d7b6972953493a9c1c2b/69f74e06/video/tos/cn/tos-cn-ve-15/oMAAQ7ogrQ0EfBwFz3BHcIsaC87eiBig4WvA7K/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=552&bt=552&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Ozo0MzRpaDo1NDNnOGllO0Bpajt3NW05cnBoOjMzNGkzM0AyMC4vLmI2Xl8xMl4vYjBfYSNxbWk1MmRjLmRhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7ge1mfog65j82ltp8tg&line=0&file_id=b83bef25ad5041b2a79eef1120113758&sign=933a4a1e8242e406a052d7a24e52dfac&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7ge1mfog65j82ltp8tg&line=1&file_id=b83bef25ad5041b2a79eef1120113758&sign=933a4a1e8242e406a052d7a24e52dfac&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "download_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/b709ee363ccaed93a9cd92a8cbb17ace/69f74e06/video/tos/cn/tos-cn-ve-15/o0LB2ecg5Ap7GurIgeNIAzCE5BwLQc2qTRGAYf/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1967&bt=1967&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZTRpOjdkOTc2ZzllNzQ3aEBpajt3NW05cnBoOjMzNGkzM0BiMzM0L2IxXi8xNGA1X2ExYSNxbWk1MmRjLmRhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/20e7665f52b2714ec6d50a8fdd5217b0/69f74e06/video/tos/cn/tos-cn-ve-15/o0LB2ecg5Ap7GurIgeNIAzCE5BwLQc2qTRGAYf/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1967&bt=1967&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZTRpOjdkOTc2ZzllNzQ3aEBpajt3NW05cnBoOjMzNGkzM0BiMzM0L2IxXi8xNGA1X2ExYSNxbWk1MmRjLmRhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7ge1mfog65j82ltp8tg&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3Jx_AfESRKvePEcuaUodtleXuwTcZpA8EDnN4HqqDT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7ge1mfog65j82ltp8tg&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3Jx_AfESRKvePEcuaUodtleXuwTcZpA8EDnN4HqqDT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH"
+              ]
+            }
+          }
+        },
+        {
+          "aweme_id": "7628686363633765678",
+          "desc": "原来金子也分这么多种 #黄金 #科普一下 #沙金",
+          "media_type": 4,
+          "video": {
+            "width": 576,
+            "height": 1024,
+            "play_addr_h264": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/735c0606148a72244481ba4646838295/69f74dee/video/tos/cn/tos-cn-ve-15/oE5esIlEb99TgIvQNBFpAj2DgaDbXAGLfo3Aws/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1513&bt=1513&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Zzw8NzdpNjxnZjg2NTM0PEBpanY6OnA5cnU7OjMzNGkzM0AxYi1fYzFjNi0xY2NiL2EvYSNqZGkvMmQ0ZmNhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/0e06f970e4c9fb70174dcb7294f3caf5/69f74dee/video/tos/cn/tos-cn-ve-15/oE5esIlEb99TgIvQNBFpAj2DgaDbXAGLfo3Aws/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1513&bt=1513&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Zzw8NzdpNjxnZjg2NTM0PEBpanY6OnA5cnU7OjMzNGkzM0AxYi1fYzFjNi0xY2NiL2EvYSNqZGkvMmQ0ZmNhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7f8ir7og65m27l7gsmg&line=0&file_id=29d120e2f3f54c0d99f34ff4b409e94d&sign=18ebf75b33dc1f69fb0e5b74dea0d886&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7f8ir7og65m27l7gsmg&line=1&file_id=29d120e2f3f54c0d99f34ff4b409e94d&sign=18ebf75b33dc1f69fb0e5b74dea0d886&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/735c0606148a72244481ba4646838295/69f74dee/video/tos/cn/tos-cn-ve-15/oE5esIlEb99TgIvQNBFpAj2DgaDbXAGLfo3Aws/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1513&bt=1513&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Zzw8NzdpNjxnZjg2NTM0PEBpanY6OnA5cnU7OjMzNGkzM0AxYi1fYzFjNi0xY2NiL2EvYSNqZGkvMmQ0ZmNhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/0e06f970e4c9fb70174dcb7294f3caf5/69f74dee/video/tos/cn/tos-cn-ve-15/oE5esIlEb99TgIvQNBFpAj2DgaDbXAGLfo3Aws/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1513&bt=1513&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Zzw8NzdpNjxnZjg2NTM0PEBpanY6OnA5cnU7OjMzNGkzM0AxYi1fYzFjNi0xY2NiL2EvYSNqZGkvMmQ0ZmNhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7f8ir7og65m27l7gsmg&line=0&file_id=29d120e2f3f54c0d99f34ff4b409e94d&sign=18ebf75b33dc1f69fb0e5b74dea0d886&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7f8ir7og65m27l7gsmg&line=1&file_id=29d120e2f3f54c0d99f34ff4b409e94d&sign=18ebf75b33dc1f69fb0e5b74dea0d886&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr_265": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/736076fdbb952f1021462654d8cb3d40/69f74dee/video/tos/cn/tos-cn-ve-15/a523196068d044a8919cb1e236e68aa3/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=639&bt=639&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=OzxkPDk4N2llNDpnOWZnOEBpanY6OnA5cnU7OjMzNGkzM0BhLTRjNTFgXi4xMi5hNV5jYSNqZGkvMmQ0ZmNhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/abe94419f347605c84120738394842d0/69f74dee/video/tos/cn/tos-cn-ve-15/a523196068d044a8919cb1e236e68aa3/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=639&bt=639&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=OzxkPDk4N2llNDpnOWZnOEBpanY6OnA5cnU7OjMzNGkzM0BhLTRjNTFgXi4xMi5hNV5jYSNqZGkvMmQ0ZmNhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7f8ir7og65m27l7gsmg&line=0&file_id=f5ad8cd61d57411bafc44586f97a09d8&sign=06005da199d2f2e0e847129a78a063ef&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7f8ir7og65m27l7gsmg&line=1&file_id=f5ad8cd61d57411bafc44586f97a09d8&sign=06005da199d2f2e0e847129a78a063ef&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "download_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/02323f3c1db19f03082e7ac9ae3b6642/69f74dee/video/tos/cn/tos-cn-ve-15/ogmTioGIDI2iaeslAwFgDU9s5BfgphAQEJg9A3/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2071&bt=2071&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZTNoaTQ5MzU2NTs6Z2Y6PEBpanY6OnA5cnU7OjMzNGkzM0BiMC9fM2I1Xy4xXy9gLy8yYSNqZGkvMmQ0ZmNhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/73705512cf57dcb2f939212b72cc2d78/69f74dee/video/tos/cn/tos-cn-ve-15/ogmTioGIDI2iaeslAwFgDU9s5BfgphAQEJg9A3/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2071&bt=2071&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZTNoaTQ5MzU2NTs6Z2Y6PEBpanY6OnA5cnU7OjMzNGkzM0BiMC9fM2I1Xy4xXy9gLy8yYSNqZGkvMmQ0ZmNhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7f8ir7og65m27l7gsmg&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JxvAfESRKvePEcuaUoIY9ZiqwTcZpBMsGnJ0Q4bnT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7f8ir7og65m27l7gsmg&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JxvAfESRKvePEcuaUoIY9ZiqwTcZpBMsGnJ0Q4bnT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH"
+              ]
+            }
+          }
+        },
+        {
+          "aweme_id": "7627819221786856750",
+          "desc": "捡到这个还要上班吗？ #好东西",
+          "media_type": 4,
+          "video": {
+            "width": 576,
+            "height": 1024,
+            "play_addr_h264": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/eba2c74ca5f4b994345d380e4a13eb5a/69f74dff/video/tos/cn/tos-cn-ve-15/oIOU3gGGTCQkee9LIjWu3AQJBBY3etAAC7IY2h/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1797&bt=1797&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Z2U0OmY5OTU0NTo5OTY2aUBpanlyN3M5cjdxOjMzNGkzM0A2X2JhYC01NjIxYV8tNTZeYSMwcjEuMmQ0MmFhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/e574a98d82494ded75dd3ad787316720/69f74dff/video/tos/cn/tos-cn-ve-15/oIOU3gGGTCQkee9LIjWu3AQJBBY3etAAC7IY2h/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1797&bt=1797&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Z2U0OmY5OTU0NTo5OTY2aUBpanlyN3M5cjdxOjMzNGkzM0A2X2JhYC01NjIxYV8tNTZeYSMwcjEuMmQ0MmFhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7dn547og65p144ouv3g&line=0&file_id=af938306b6d74251928606ccd7e1bb9d&sign=be842e1d7ee6e00d7df06d9c7f94fc07&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7dn547og65p144ouv3g&line=1&file_id=af938306b6d74251928606ccd7e1bb9d&sign=be842e1d7ee6e00d7df06d9c7f94fc07&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/eba2c74ca5f4b994345d380e4a13eb5a/69f74dff/video/tos/cn/tos-cn-ve-15/oIOU3gGGTCQkee9LIjWu3AQJBBY3etAAC7IY2h/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1797&bt=1797&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Z2U0OmY5OTU0NTo5OTY2aUBpanlyN3M5cjdxOjMzNGkzM0A2X2JhYC01NjIxYV8tNTZeYSMwcjEuMmQ0MmFhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/e574a98d82494ded75dd3ad787316720/69f74dff/video/tos/cn/tos-cn-ve-15/oIOU3gGGTCQkee9LIjWu3AQJBBY3etAAC7IY2h/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1797&bt=1797&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Z2U0OmY5OTU0NTo5OTY2aUBpanlyN3M5cjdxOjMzNGkzM0A2X2JhYC01NjIxYV8tNTZeYSMwcjEuMmQ0MmFhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7dn547og65p144ouv3g&line=0&file_id=af938306b6d74251928606ccd7e1bb9d&sign=be842e1d7ee6e00d7df06d9c7f94fc07&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7dn547og65p144ouv3g&line=1&file_id=af938306b6d74251928606ccd7e1bb9d&sign=be842e1d7ee6e00d7df06d9c7f94fc07&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr_265": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/93f71d01ad4d7f626a49238a5d750525/69f74dff/video/tos/cn/tos-cn-ve-15/oIAuBBaTGIhgO73IUO3eCLAt2GfNJuQkeG9YCA/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=748&bt=748&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NjY1aDU1PGZkaDs5M2Q7aUBpanlyN3M5cjdxOjMzNGkzM0BhXmMtXjJgNWAxLjIwNWAxYSMwcjEuMmQ0MmFhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/eb778621311e005a3158c3e24d195216/69f74dff/video/tos/cn/tos-cn-ve-15/oIAuBBaTGIhgO73IUO3eCLAt2GfNJuQkeG9YCA/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=748&bt=748&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NjY1aDU1PGZkaDs5M2Q7aUBpanlyN3M5cjdxOjMzNGkzM0BhXmMtXjJgNWAxLjIwNWAxYSMwcjEuMmQ0MmFhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7dn547og65p144ouv3g&line=0&file_id=4fc88a3056184eca8cc952a20ef2a3d3&sign=792ad9c1dc25adb4fb647613180147fc&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7dn547og65p144ouv3g&line=1&file_id=4fc88a3056184eca8cc952a20ef2a3d3&sign=792ad9c1dc25adb4fb647613180147fc&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "download_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/ef2c2a29746bd7a7507d6d93255cc38b/69f74dff/video/tos/cn/tos-cn-ve-15/oEuCYehejbjTLBAkIUYH7dfGAIgBGyQCJYtWE9/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2446&bt=2446&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=N2VmOmZkMzk1OzM7Zmc4Z0BpanlyN3M5cjdxOjMzNGkzM0AvMDVfMzM1NTUxMzEyXjZhYSMwcjEuMmQ0MmFhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/6b6374427078fc29523ff93b4d4d56b5/69f74dff/video/tos/cn/tos-cn-ve-15/oEuCYehejbjTLBAkIUYH7dfGAIgBGyQCJYtWE9/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2446&bt=2446&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=N2VmOmZkMzk1OzM7Zmc4Z0BpanlyN3M5cjdxOjMzNGkzM0AvMDVfMzM1NTUxMzEyXjZhYSMwcjEuMmQ0MmFhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7dn547og65p144ouv3g&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JxvAfESRKvePEcuaUotBhICqwTcZpGcgFxMUC5OfT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7dn547og65p144ouv3g&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JxvAfESRKvePEcuaUotBhICqwTcZpGcgFxMUC5OfT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH"
+              ]
+            }
+          }
+        },
+        {
+          "aweme_id": "7626700489991802166",
+          "desc": "这些老物件，你都认识几个？ #老物件 #童年",
+          "media_type": 4,
+          "video": {
+            "width": 576,
+            "height": 1024,
+            "play_addr_h264": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/0ffe319279bcd19a87cf840ab7af7246/69f74e0d/video/tos/cn/tos-cn-ve-15/oItdp8bgerAhu6fOAXCitMgu246efEHQEYpIAf/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2028&bt=2028&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ODNnZ2lnOmk3aGg1NDs0NUBpanY6cXQ5cmhxOjMzNGkzM0AuNC41MC5hXl8xNTVhYTAxYSMzY2RuMmRrZ19hLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/e033144bf465853b02750a6e41528122/69f74e0d/video/tos/cn/tos-cn-ve-15/oItdp8bgerAhu6fOAXCitMgu246efEHQEYpIAf/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2028&bt=2028&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ODNnZ2lnOmk3aGg1NDs0NUBpanY6cXQ5cmhxOjMzNGkzM0AuNC41MC5hXl8xNTVhYTAxYSMzY2RuMmRrZ19hLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7bnjenog65qqng7fs6g&line=0&file_id=4231d8d1828e4eb4afd71d3f8d1d7015&sign=e1b4b63e575e79a4ed5a689be15b14ef&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7bnjenog65qqng7fs6g&line=1&file_id=4231d8d1828e4eb4afd71d3f8d1d7015&sign=e1b4b63e575e79a4ed5a689be15b14ef&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/0ffe319279bcd19a87cf840ab7af7246/69f74e0d/video/tos/cn/tos-cn-ve-15/oItdp8bgerAhu6fOAXCitMgu246efEHQEYpIAf/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2028&bt=2028&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ODNnZ2lnOmk3aGg1NDs0NUBpanY6cXQ5cmhxOjMzNGkzM0AuNC41MC5hXl8xNTVhYTAxYSMzY2RuMmRrZ19hLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/e033144bf465853b02750a6e41528122/69f74e0d/video/tos/cn/tos-cn-ve-15/oItdp8bgerAhu6fOAXCitMgu246efEHQEYpIAf/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2028&bt=2028&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ODNnZ2lnOmk3aGg1NDs0NUBpanY6cXQ5cmhxOjMzNGkzM0AuNC41MC5hXl8xNTVhYTAxYSMzY2RuMmRrZ19hLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7bnjenog65qqng7fs6g&line=0&file_id=4231d8d1828e4eb4afd71d3f8d1d7015&sign=e1b4b63e575e79a4ed5a689be15b14ef&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7bnjenog65qqng7fs6g&line=1&file_id=4231d8d1828e4eb4afd71d3f8d1d7015&sign=e1b4b63e575e79a4ed5a689be15b14ef&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr_265": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/725fa5a3e33392dc1340f40189f65561/69f74e0d/video/tos/cn/tos-cn-ve-15/oorATmpEXe8DPBBig6CL3fEiFAA97Q11IN3qHI/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=635&bt=635&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=O2U5NzM7ODo2aDRkZGRnO0BpanY6cXQ5cmhxOjMzNGkzM0A2YzAxXjJhNjYxYC4uNjRjYSMzY2RuMmRrZ19hLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/b0146c18f52f01a6e777d83602714ab6/69f74e0d/video/tos/cn/tos-cn-ve-15/oorATmpEXe8DPBBig6CL3fEiFAA97Q11IN3qHI/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=635&bt=635&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=O2U5NzM7ODo2aDRkZGRnO0BpanY6cXQ5cmhxOjMzNGkzM0A2YzAxXjJhNjYxYC4uNjRjYSMzY2RuMmRrZ19hLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7bnjenog65qqng7fs6g&line=0&file_id=f87d9a1a1ac14e9397d558a04436fb98&sign=277bc75b1eb93de3b7bb44d3b7a424ed&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7bnjenog65qqng7fs6g&line=1&file_id=f87d9a1a1ac14e9397d558a04436fb98&sign=277bc75b1eb93de3b7bb44d3b7a424ed&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "download_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/f449b1e5bc1ebc10dfc6761999c3a56f/69f74e0d/video/tos/cn/tos-cn-ve-15/oYguRBBJ7fOrAAMTrXeV8wDw0NWB1Q6AEfvDCn/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2572&bt=2572&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=OzpoOmU3ZzZkOjtmOWdkNkBpanY6cXQ5cmhxOjMzNGkzM0BfNS80YTRfXzAxMy0xLTQzYSMzY2RuMmRrZ19hLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/284254ed55c4dd998942b5482915ee9f/69f74e0d/video/tos/cn/tos-cn-ve-15/oYguRBBJ7fOrAAMTrXeV8wDw0NWB1Q6AEfvDCn/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2572&bt=2572&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=OzpoOmU3ZzZkOjtmOWdkNkBpanY6cXQ5cmhxOjMzNGkzM0BfNS80YTRfXzAxMy0xLTQzYSMzY2RuMmRrZ19hLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7bnjenog65qqng7fs6g&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3Jx_AfESRKvePEcuaUpNA-cXOwTcZpGIhfl50R4eLT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d7bnjenog65qqng7fs6g&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3Jx_AfESRKvePEcuaUpNA-cXOwTcZpGIhfl50R4eLT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH"
+              ]
+            }
+          }
+        },
+        {
+          "aweme_id": "7626078755970108672",
+          "desc": "“所以，什么是遗憾呢？” #诗词 #古诗词 #诗词具象化",
+          "media_type": 4,
+          "video": {
+            "width": 576,
+            "height": 1024,
+            "play_addr_h264": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/354636139a7c4b428e71a7b96e155ca3/69f74df7/video/tos/cn/tos-cn-ve-15/ogBNiToCqetIBnL7qVIgv1AGQUAeAnDVfTqQSG/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1971&bt=1971&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=PDw1ZTU6ZGk2N2dnMzY2OUBpM2RqO2o5cmZuOjMzNGkzM0AtLV4yNDMuXjIxXy4yMDEwYSNkcm5xMmRzX15hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/61898e583afe25253c7440aaf05df30f/69f74df7/video/tos/cn/tos-cn-ve-15/ogBNiToCqetIBnL7qVIgv1AGQUAeAnDVfTqQSG/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1971&bt=1971&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=PDw1ZTU6ZGk2N2dnMzY2OUBpM2RqO2o5cmZuOjMzNGkzM0AtLV4yNDMuXjIxXy4yMDEwYSNkcm5xMmRzX15hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7akbcvog65gt8qguag0&line=0&file_id=364333501dbd4453af1a67725ba20909&sign=65868f7934df08edc596a620f71aaf51&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7akbcvog65gt8qguag0&line=1&file_id=364333501dbd4453af1a67725ba20909&sign=65868f7934df08edc596a620f71aaf51&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/354636139a7c4b428e71a7b96e155ca3/69f74df7/video/tos/cn/tos-cn-ve-15/ogBNiToCqetIBnL7qVIgv1AGQUAeAnDVfTqQSG/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1971&bt=1971&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=PDw1ZTU6ZGk2N2dnMzY2OUBpM2RqO2o5cmZuOjMzNGkzM0AtLV4yNDMuXjIxXy4yMDEwYSNkcm5xMmRzX15hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/61898e583afe25253c7440aaf05df30f/69f74df7/video/tos/cn/tos-cn-ve-15/ogBNiToCqetIBnL7qVIgv1AGQUAeAnDVfTqQSG/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1971&bt=1971&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=PDw1ZTU6ZGk2N2dnMzY2OUBpM2RqO2o5cmZuOjMzNGkzM0AtLV4yNDMuXjIxXy4yMDEwYSNkcm5xMmRzX15hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7akbcvog65gt8qguag0&line=0&file_id=364333501dbd4453af1a67725ba20909&sign=65868f7934df08edc596a620f71aaf51&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7akbcvog65gt8qguag0&line=1&file_id=364333501dbd4453af1a67725ba20909&sign=65868f7934df08edc596a620f71aaf51&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr_265": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/6143e069225e8f65bc0e6589223d381e/69f74df7/video/tos/cn/tos-cn-ve-15/a0d5bc78ada0429b8caca155f7009dc1/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=593&bt=593&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=aDc8N2kzNTc6NzQ8OGQ1OkBpM2RqO2o5cmZuOjMzNGkzM0AyYDBgMWMvXzIxXl9jYy0vYSNkcm5xMmRzX15hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/69e65026c16973818c97e45e01065227/69f74df7/video/tos/cn/tos-cn-ve-15/a0d5bc78ada0429b8caca155f7009dc1/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=593&bt=593&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=aDc8N2kzNTc6NzQ8OGQ1OkBpM2RqO2o5cmZuOjMzNGkzM0AyYDBgMWMvXzIxXl9jYy0vYSNkcm5xMmRzX15hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7akbcvog65gt8qguag0&line=0&file_id=2702faf5b9a14457b422f04fc439c45e&sign=ed9688c86380257794486350a630024c&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7akbcvog65gt8qguag0&line=1&file_id=2702faf5b9a14457b422f04fc439c45e&sign=ed9688c86380257794486350a630024c&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "download_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/9391e1b0d481dffb249c874cbdbbbbb5/69f74df7/video/tos/cn/tos-cn-ve-15/oMjoVAPvqDQVUiE0z6ifABg6KRb4LgI6eWBwAZ/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2476&bt=2476&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZzZmOztkOzNlNTk7PDg1ZkBpM2RqO2o5cmZuOjMzNGkzM0BjL2JgNmAzNTYxNC4wYmA0YSNkcm5xMmRzX15hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/5ac6a92a5998426c8f50d9c8abb6003e/69f74df7/video/tos/cn/tos-cn-ve-15/oMjoVAPvqDQVUiE0z6ifABg6KRb4LgI6eWBwAZ/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2476&bt=2476&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZzZmOztkOzNlNTk7PDg1ZkBpM2RqO2o5cmZuOjMzNGkzM0BjL2JgNmAzNTYxNC4wYmA0YSNkcm5xMmRzX15hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7akbcvog65gt8qguag0&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JxvAfESRKvePEcuaUp9U2d2uwTcZpDo0Jgc0C87OE9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d7akbcvog65gt8qguag0&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JxvAfESRKvePEcuaUp9U2d2uwTcZpDo0Jgc0C87OE9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH"
+              ]
+            }
+          }
+        },
+        {
+          "aweme_id": "7625334905676893503",
+          "desc": "这鱼可以捡回家炖汤吗？ #保护动物 #鱼 #动物科普",
+          "media_type": 4,
+          "video": {
+            "width": 576,
+            "height": 1024,
+            "play_addr_h264": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/95adc3858e9ebe70350ec3db86707f37/69f74df5/video/tos/cn/tos-cn-ve-15/osUPaLGY7BBlNIIBSlIQjKCAYgUAeutfpTeW7W/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2640&bt=2640&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=PDc6NGU2Omc8ZDQ4NWdnaUBpand4eHU5cmpkOjMzNGkzM0A1MzJhMWA0Xy0xLzUyYzBeYSNpaDRlMmQ0LzZhLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/64ee3495dff558e449dc209eb2ee6e72/69f74df5/video/tos/cn/tos-cn-ve-15/osUPaLGY7BBlNIIBSlIQjKCAYgUAeutfpTeW7W/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2640&bt=2640&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=PDc6NGU2Omc8ZDQ4NWdnaUBpand4eHU5cmpkOjMzNGkzM0A1MzJhMWA0Xy0xLzUyYzBeYSNpaDRlMmQ0LzZhLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d79a2g7og65rhu7uktlg&line=0&file_id=af3dfd5285214a09bd77c34bd1576489&sign=a968097ebc60c74d7c04376914269cdd&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d79a2g7og65rhu7uktlg&line=1&file_id=af3dfd5285214a09bd77c34bd1576489&sign=a968097ebc60c74d7c04376914269cdd&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/95adc3858e9ebe70350ec3db86707f37/69f74df5/video/tos/cn/tos-cn-ve-15/osUPaLGY7BBlNIIBSlIQjKCAYgUAeutfpTeW7W/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2640&bt=2640&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=PDc6NGU2Omc8ZDQ4NWdnaUBpand4eHU5cmpkOjMzNGkzM0A1MzJhMWA0Xy0xLzUyYzBeYSNpaDRlMmQ0LzZhLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/64ee3495dff558e449dc209eb2ee6e72/69f74df5/video/tos/cn/tos-cn-ve-15/osUPaLGY7BBlNIIBSlIQjKCAYgUAeutfpTeW7W/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2640&bt=2640&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=PDc6NGU2Omc8ZDQ4NWdnaUBpand4eHU5cmpkOjMzNGkzM0A1MzJhMWA0Xy0xLzUyYzBeYSNpaDRlMmQ0LzZhLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d79a2g7og65rhu7uktlg&line=0&file_id=af3dfd5285214a09bd77c34bd1576489&sign=a968097ebc60c74d7c04376914269cdd&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d79a2g7og65rhu7uktlg&line=1&file_id=af3dfd5285214a09bd77c34bd1576489&sign=a968097ebc60c74d7c04376914269cdd&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr_265": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/a97c71836d2d4986917ac9a15d1a197e/69f74df5/video/tos/cn/tos-cn-ve-15/osGjOIugKIqpBLPB7aDefftVbUTWC7APSTQUAB/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1125&bt=1125&cs=2&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NjU6Zjc5Njk2Zzo6OGU5O0Bpand4eHU5cmpkOjMzNGkzM0A2LmBeNjMxNjExYWI1XmA1YSNpaDRlMmQ0LzZhLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=a2a5bfc4019936dfb9929db9339ed4a8&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/db8e8736b5a52518eefc5b2a87a2d834/69f74df5/video/tos/cn/tos-cn-ve-15/osGjOIugKIqpBLPB7aDefftVbUTWC7APSTQUAB/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1125&bt=1125&cs=2&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=NjU6Zjc5Njk2Zzo6OGU5O0Bpand4eHU5cmpkOjMzNGkzM0A2LmBeNjMxNjExYWI1XmA1YSNpaDRlMmQ0LzZhLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=a2a5bfc4019936dfb9929db9339ed4a8&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d79a2g7og65rhu7uktlg&line=0&file_id=88c6ab85e7d74d4396436694acc71293&sign=f8dadfd9eb93e3eca8060c3b19713266&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d79a2g7og65rhu7uktlg&line=1&file_id=88c6ab85e7d74d4396436694acc71293&sign=f8dadfd9eb93e3eca8060c3b19713266&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "download_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/e3c3e0aaf82bc5eea6a987e89398645b/69f74df5/video/tos/cn/tos-cn-ve-15/o8I7KaTAUWoP2BWSGBQU7pLXZegCfAeuIoByji/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=3453&bt=3453&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=OTU8Zjw2PGVoZjxnPGQzZUBpand4eHU5cmpkOjMzNGkzM0BeLTZhYS4wX2AxMDEyMDNiYSNpaDRlMmQ0LzZhLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/b4431501456e0821e91c4628a3ea430d/69f74df5/video/tos/cn/tos-cn-ve-15/o8I7KaTAUWoP2BWSGBQU7pLXZegCfAeuIoByji/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=3453&bt=3453&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=OTU8Zjw2PGVoZjxnPGQzZUBpand4eHU5cmpkOjMzNGkzM0BeLTZhYS4wX2AxMDEyMDNiYSNpaDRlMmQ0LzZhLS1kLWFzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d79a2g7og65rhu7uktlg&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JkfAfESRKvePEcuaU_99mcyqwTcZpG5FEx98c5rjT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0d00fg10000d79a2g7og65rhu7uktlg&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JkfAfESRKvePEcuaU_99mcyqwTcZpG5FEx98c5rjT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH"
+              ]
+            }
+          }
+        },
+        {
+          "aweme_id": "7624558733149965606",
+          "desc": "分享十种现实中长的很标准的东西，你遇见过吗？ #植物科普 #万物科普",
+          "media_type": 4,
+          "video": {
+            "width": 576,
+            "height": 1024,
+            "play_addr_h264": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/1d97c4857dca369e47bf325b7ebaaa1e/69f74de0/video/tos/cn/tos-cn-ve-15/oIVPzvgEEgDAzCOF96BJbp48fJCA9AQgIYZ7fU/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1559&bt=1559&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZGllODpnO2dpaGQ0OzRoZEBpanV3NXk5cjt3OjMzNGkzM0AzYDUvMGJjNjAxL19eXzReYSNtNmEuMmQ0cjRhLS1kLS9zcw%3D%3D&btag=c0000e00020000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/17449d97437059f2e1c509c380eac430/69f74de0/video/tos/cn/tos-cn-ve-15/oIVPzvgEEgDAzCOF96BJbp48fJCA9AQgIYZ7fU/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1559&bt=1559&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZGllODpnO2dpaGQ0OzRoZEBpanV3NXk5cjt3OjMzNGkzM0AzYDUvMGJjNjAxL19eXzReYSNtNmEuMmQ0cjRhLS1kLS9zcw%3D%3D&btag=c0000e00020000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d77tu87og65v12dt9rpg&line=0&file_id=aa7eb1a8b12a4e3f9df8ed37258bcf6a&sign=9b44484ebbbf23e336d7bb8558f03322&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d77tu87og65v12dt9rpg&line=1&file_id=aa7eb1a8b12a4e3f9df8ed37258bcf6a&sign=9b44484ebbbf23e336d7bb8558f03322&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/1d97c4857dca369e47bf325b7ebaaa1e/69f74de0/video/tos/cn/tos-cn-ve-15/oIVPzvgEEgDAzCOF96BJbp48fJCA9AQgIYZ7fU/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1559&bt=1559&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZGllODpnO2dpaGQ0OzRoZEBpanV3NXk5cjt3OjMzNGkzM0AzYDUvMGJjNjAxL19eXzReYSNtNmEuMmQ0cjRhLS1kLS9zcw%3D%3D&btag=c0000e00020000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/17449d97437059f2e1c509c380eac430/69f74de0/video/tos/cn/tos-cn-ve-15/oIVPzvgEEgDAzCOF96BJbp48fJCA9AQgIYZ7fU/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1559&bt=1559&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZGllODpnO2dpaGQ0OzRoZEBpanV3NXk5cjt3OjMzNGkzM0AzYDUvMGJjNjAxL19eXzReYSNtNmEuMmQ0cjRhLS1kLS9zcw%3D%3D&btag=c0000e00020000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d77tu87og65v12dt9rpg&line=0&file_id=aa7eb1a8b12a4e3f9df8ed37258bcf6a&sign=9b44484ebbbf23e336d7bb8558f03322&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d77tu87og65v12dt9rpg&line=1&file_id=aa7eb1a8b12a4e3f9df8ed37258bcf6a&sign=9b44484ebbbf23e336d7bb8558f03322&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr_265": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/77382d99f8ff30c54dfe472026ea6215/69f74de0/video/tos/cn/tos-cn-ve-15/oUqAUrFz7IDjgfQA8zrgfJECpPEH9SvACDm95B/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=603&bt=603&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=aTg7aDdoOmRkPDQ6aWY1NUBpanV3NXk5cjt3OjMzNGkzM0BiMC5fNTYxNi0xNDY1Yi5hYSNtNmEuMmQ0cjRhLS1kLS9zcw%3D%3D&btag=c0000e00020000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/3006e3543389d5f7dfc3844742282a4e/69f74de0/video/tos/cn/tos-cn-ve-15/oUqAUrFz7IDjgfQA8zrgfJECpPEH9SvACDm95B/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=603&bt=603&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=aTg7aDdoOmRkPDQ6aWY1NUBpanV3NXk5cjt3OjMzNGkzM0BiMC5fNTYxNi0xNDY1Yi5hYSNtNmEuMmQ0cjRhLS1kLS9zcw%3D%3D&btag=c0000e00020000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d77tu87og65v12dt9rpg&line=0&file_id=d212ec8f9771490a9a479e84be1835ef&sign=5e697ec3317f9ffe4023335e8e0e0d2f&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d77tu87og65v12dt9rpg&line=1&file_id=d212ec8f9771490a9a479e84be1835ef&sign=5e697ec3317f9ffe4023335e8e0e0d2f&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "download_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/3558e1938ef33e00a6fac81c1a5f0b63/69f74de0/video/tos/cn/tos-cn-ve-15/oUDCPCf8Qv79pFMAMwfBAgCzEzEA4IJg9UP4Hp/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1991&bt=1991&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZWU8MzllODo2OjczZmU0Z0BpanV3NXk5cjt3OjMzNGkzM0BfMzZhYmItNWIxLzYvYV81YSNtNmEuMmQ0cjRhLS1kLS9zcw%3D%3D&btag=c0000e00020000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/da25d90c9af6961711cc78bc73885631/69f74de0/video/tos/cn/tos-cn-ve-15/oUDCPCf8Qv79pFMAMwfBAgCzEzEA4IJg9UP4Hp/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1991&bt=1991&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZWU8MzllODo2OjczZmU0Z0BpanV3NXk5cjt3OjMzNGkzM0BfMzZhYmItNWIxLzYvYV81YSNtNmEuMmQ0cjRhLS1kLS9zcw%3D%3D&btag=c0000e00020000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d77tu87og65v12dt9rpg&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3Jx_AfESRKvePEcuaU8cohLCqwTcZpH8gDlN5O4KTT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d77tu87og65v12dt9rpg&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3Jx_AfESRKvePEcuaU8cohLCqwTcZpH8gDlN5O4KTT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH"
+              ]
+            }
+          }
+        },
+        {
+          "aweme_id": "7623824082550689033",
+          "desc": "“摄影界十二位天才已横空出世！” #摄影天才 #抽象",
+          "media_type": 4,
+          "video": {
+            "width": 576,
+            "height": 1024,
+            "play_addr_h264": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/74de7cb899b539d87a45f3d561e27a47/69f74e14/video/tos/cn/tos-cn-ve-15/os3OAzfDDQ6Y98pAvje4mzrUaBFAWELAFgoxIg/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1614&bt=1614&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=M2U1ODY8OWY3NDhpZzRnNEBpM286c3c5cnZuOjMzNGkzM0BjMDMxYF9iNV8xMV9jNV8uYSNycG9fMmRjMjNhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/9a728ecbad9f70c39d0f284855571ca7/69f74e14/video/tos/cn/tos-cn-ve-15/os3OAzfDDQ6Y98pAvje4mzrUaBFAWELAFgoxIg/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1614&bt=1614&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=M2U1ODY8OWY3NDhpZzRnNEBpM286c3c5cnZuOjMzNGkzM0BjMDMxYF9iNV8xMV9jNV8uYSNycG9fMmRjMjNhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d76k5sfog65tbpr7slu0&line=0&file_id=11bd81fdbf4541b48ce6b9c345623bf0&sign=a7c93da3191588b2ec87d2c113f84ebb&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d76k5sfog65tbpr7slu0&line=1&file_id=11bd81fdbf4541b48ce6b9c345623bf0&sign=a7c93da3191588b2ec87d2c113f84ebb&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/74de7cb899b539d87a45f3d561e27a47/69f74e14/video/tos/cn/tos-cn-ve-15/os3OAzfDDQ6Y98pAvje4mzrUaBFAWELAFgoxIg/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1614&bt=1614&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=M2U1ODY8OWY3NDhpZzRnNEBpM286c3c5cnZuOjMzNGkzM0BjMDMxYF9iNV8xMV9jNV8uYSNycG9fMmRjMjNhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/9a728ecbad9f70c39d0f284855571ca7/69f74e14/video/tos/cn/tos-cn-ve-15/os3OAzfDDQ6Y98pAvje4mzrUaBFAWELAFgoxIg/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1614&bt=1614&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=M2U1ODY8OWY3NDhpZzRnNEBpM286c3c5cnZuOjMzNGkzM0BjMDMxYF9iNV8xMV9jNV8uYSNycG9fMmRjMjNhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d76k5sfog65tbpr7slu0&line=0&file_id=11bd81fdbf4541b48ce6b9c345623bf0&sign=a7c93da3191588b2ec87d2c113f84ebb&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d76k5sfog65tbpr7slu0&line=1&file_id=11bd81fdbf4541b48ce6b9c345623bf0&sign=a7c93da3191588b2ec87d2c113f84ebb&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr_265": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/1c86a05d72f52e8352cd62b2c1129ed2/69f74e14/video/tos/cn/tos-cn-ve-15/ospOD1NvxBVIUAF96AeEOItQHzAzgUfPiLUDE8/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=582&bt=582&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZmY8O2c4PDdnZTVnZjlkaEBpM286c3c5cnZuOjMzNGkzM0BfYTFfMl5iXzAxMjQuXy82YSNycG9fMmRjMjNhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/9ccdf0328b2b625632e9ebc721063d35/69f74e14/video/tos/cn/tos-cn-ve-15/ospOD1NvxBVIUAF96AeEOItQHzAzgUfPiLUDE8/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=582&bt=582&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZmY8O2c4PDdnZTVnZjlkaEBpM286c3c5cnZuOjMzNGkzM0BfYTFfMl5iXzAxMjQuXy82YSNycG9fMmRjMjNhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=4cf169b739b0c58fabe409cdc9cebeb2&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d76k5sfog65tbpr7slu0&line=0&file_id=9e2ab61c7d524b3db4e9a55db849dcbc&sign=6c8160b87bac6ee8a14a58446f5f6622&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d76k5sfog65tbpr7slu0&line=1&file_id=9e2ab61c7d524b3db4e9a55db849dcbc&sign=6c8160b87bac6ee8a14a58446f5f6622&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "download_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/4f919c3dba3a1e95e4afad302e18ec85/69f74e14/video/tos/cn/tos-cn-ve-15/oIBXgGwejMAfhdqQ4oXqB7TBeB5AXCUmRn8naQ/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2094&bt=2094&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=OWQ6ZTs5OWVpaGU6ODo3OkBpM286c3c5cnZuOjMzNGkzM0BgYS0zLjU0XmAxXl9hXzIyYSNycG9fMmRjMjNhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/0ed24404f7e39a4cc0ab8dbdacdc12bd/69f74e14/video/tos/cn/tos-cn-ve-15/oIBXgGwejMAfhdqQ4oXqB7TBeB5AXCUmRn8naQ/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2094&bt=2094&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=OWQ6ZTs5OWVpaGU6ODo3OkBpM286c3c5cnZuOjMzNGkzM0BgYS0zLjU0XmAxXl9hXzIyYSNycG9fMmRjMjNhLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d76k5sfog65tbpr7slu0&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JxvAfESRKvePEcuaU8NVhZ3uwTcZpHZtBgp0E_qGE9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d76k5sfog65tbpr7slu0&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JxvAfESRKvePEcuaU8NVhZ3uwTcZpHZtBgp0E_qGE9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH"
+              ]
+            }
+          }
+        },
+        {
+          "aweme_id": "7623085083443940634",
+          "desc": "带你认识11种童年野果，你还记得味道吗？ #植物科普 #野果 #春日好食光",
+          "media_type": 4,
+          "video": {
+            "width": 576,
+            "height": 1024,
+            "play_addr_h264": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/d3480a978f15ed521cd825c24c40f87b/69f74dfe/video/tos/cn/tos-cn-ve-15/ogDCKBfNQZTqpFYAPJfBAVCNEyEApIqg9vrZw4/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2513&bt=2513&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Z2UzN2Y1OjhmOGVlNzk7OEBpam05ZHk5cm9kOjMzNGkzM0A0YjYtNC9jXjExXmAwMjQ2YSMzcmcuMmRjMzJhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/5ae1a199fdc1a97d1d449956980c97fb/69f74dfe/video/tos/cn/tos-cn-ve-15/ogDCKBfNQZTqpFYAPJfBAVCNEyEApIqg9vrZw4/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2513&bt=2513&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Z2UzN2Y1OjhmOGVlNzk7OEBpam05ZHk5cm9kOjMzNGkzM0A0YjYtNC9jXjExXmAwMjQ2YSMzcmcuMmRjMzJhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d75a6lfog65v1aj6uj6g&line=0&file_id=95785634cbab454ca5f7227c0490eb7d&sign=bef2a93be79e9ec07e0b718d7311c5d3&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d75a6lfog65v1aj6uj6g&line=1&file_id=95785634cbab454ca5f7227c0490eb7d&sign=bef2a93be79e9ec07e0b718d7311c5d3&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/d3480a978f15ed521cd825c24c40f87b/69f74dfe/video/tos/cn/tos-cn-ve-15/ogDCKBfNQZTqpFYAPJfBAVCNEyEApIqg9vrZw4/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2513&bt=2513&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Z2UzN2Y1OjhmOGVlNzk7OEBpam05ZHk5cm9kOjMzNGkzM0A0YjYtNC9jXjExXmAwMjQ2YSMzcmcuMmRjMzJhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/5ae1a199fdc1a97d1d449956980c97fb/69f74dfe/video/tos/cn/tos-cn-ve-15/ogDCKBfNQZTqpFYAPJfBAVCNEyEApIqg9vrZw4/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2513&bt=2513&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Z2UzN2Y1OjhmOGVlNzk7OEBpam05ZHk5cm9kOjMzNGkzM0A0YjYtNC9jXjExXmAwMjQ2YSMzcmcuMmRjMzJhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d75a6lfog65v1aj6uj6g&line=0&file_id=95785634cbab454ca5f7227c0490eb7d&sign=bef2a93be79e9ec07e0b718d7311c5d3&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d75a6lfog65v1aj6uj6g&line=1&file_id=95785634cbab454ca5f7227c0490eb7d&sign=bef2a93be79e9ec07e0b718d7311c5d3&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr_265": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/81e51eb41c480fd9513cdd12b241d96c/69f74dfe/video/tos/cn/tos-cn-ve-15/oQnAN0DaFHTVyqKoY9vNABvACfZIECQfgpqqWE/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=760&bt=760&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Ojw3aWhmOTxmODtnO2Q3M0Bpam05ZHk5cm9kOjMzNGkzM0AyMjZgXy4zXzUxMTY1Xy0zYSMzcmcuMmRjMzJhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=9d3b25048575d8661ba702640e0735c5&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/05d21252ab980c87f9ad9e72ee1565eb/69f74dfe/video/tos/cn/tos-cn-ve-15/oQnAN0DaFHTVyqKoY9vNABvACfZIECQfgpqqWE/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=760&bt=760&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=Ojw3aWhmOTxmODtnO2Q3M0Bpam05ZHk5cm9kOjMzNGkzM0AyMjZgXy4zXzUxMTY1Xy0zYSMzcmcuMmRjMzJhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=9d3b25048575d8661ba702640e0735c5&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d75a6lfog65v1aj6uj6g&line=0&file_id=6004ba889d48458cb9661cbecf945957&sign=e5f4b1729d211a00608ddceaf497143e&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d75a6lfog65v1aj6uj6g&line=1&file_id=6004ba889d48458cb9661cbecf945957&sign=e5f4b1729d211a00608ddceaf497143e&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "download_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/46ea04e11bc79e1803ef5ed0afbff435/69f74dfe/video/tos/cn/tos-cn-ve-15/ff5f626741f14beeaf9b4a8f395b1b3f/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=3095&bt=3095&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=MzY0ZTZoMzNoZDc1Ozs7N0Bpam05ZHk5cm9kOjMzNGkzM0AwL14vNGA2X18xYl5iMjZgYSMzcmcuMmRjMzJhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/32316c23159d4d53c9c43459b5bcbf55/69f74dfe/video/tos/cn/tos-cn-ve-15/ff5f626741f14beeaf9b4a8f395b1b3f/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=3095&bt=3095&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=MzY0ZTZoMzNoZDc1Ozs7N0Bpam05ZHk5cm9kOjMzNGkzM0AwL14vNGA2X18xYl5iMjZgYSMzcmcuMmRjMzJhLS1kLS9zcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d75a6lfog65v1aj6uj6g&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3Jx_AfESRKvePEcuaU899ieHuwTcZpH8hQmpwC-OLT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200fg10000d75a6lfog65v1aj6uj6g&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3Jx_AfESRKvePEcuaU899ieHuwTcZpH8hQmpwC-OLT9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH"
+              ]
+            }
+          }
+        },
+        {
+          "aweme_id": "7621265706063121718",
+          "desc": "“它们为什么打架？” #保护动物 #动物科普 #神奇动物",
+          "media_type": 4,
+          "video": {
+            "width": 576,
+            "height": 1024,
+            "play_addr_h264": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/abc171e1f894998023c7a45dd11f110f/69f74e00/video/tos/cn/tos-cn-ve-15/osXeQA0dFGBefQRTMiX8BCAXGsTrigga7hMQBN/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2461&bt=2461&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZmQ4ZTRnaTs1NDQ8Omg3aUBpMzR5bnQ5cms1OjMzNGkzM0AzMjQuMzQtXy4xYy4wYDE1YSNobmsuMmRrbC9hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/a79f5564e561b63bdb395c0a2dfa814f/69f74e00/video/tos/cn/tos-cn-ve-15/osXeQA0dFGBefQRTMiX8BCAXGsTrigga7hMQBN/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2461&bt=2461&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZmQ4ZTRnaTs1NDQ8Omg3aUBpMzR5bnQ5cms1OjMzNGkzM0AzMjQuMzQtXy4xYy4wYDE1YSNobmsuMmRrbC9hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d722ohnog65q1knvq1k0&line=0&file_id=8f44ce3719f14112b80f7d611b755a6c&sign=7af8303ab501f36421e3e1a54a415fe6&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d722ohnog65q1knvq1k0&line=1&file_id=8f44ce3719f14112b80f7d611b755a6c&sign=7af8303ab501f36421e3e1a54a415fe6&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/abc171e1f894998023c7a45dd11f110f/69f74e00/video/tos/cn/tos-cn-ve-15/osXeQA0dFGBefQRTMiX8BCAXGsTrigga7hMQBN/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2461&bt=2461&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZmQ4ZTRnaTs1NDQ8Omg3aUBpMzR5bnQ5cms1OjMzNGkzM0AzMjQuMzQtXy4xYy4wYDE1YSNobmsuMmRrbC9hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/a79f5564e561b63bdb395c0a2dfa814f/69f74e00/video/tos/cn/tos-cn-ve-15/osXeQA0dFGBefQRTMiX8BCAXGsTrigga7hMQBN/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2461&bt=2461&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=ZmQ4ZTRnaTs1NDQ8Omg3aUBpMzR5bnQ5cms1OjMzNGkzM0AzMjQuMzQtXy4xYy4wYDE1YSNobmsuMmRrbC9hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d722ohnog65q1knvq1k0&line=0&file_id=8f44ce3719f14112b80f7d611b755a6c&sign=7af8303ab501f36421e3e1a54a415fe6&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d722ohnog65q1knvq1k0&line=1&file_id=8f44ce3719f14112b80f7d611b755a6c&sign=7af8303ab501f36421e3e1a54a415fe6&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr_265": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/c72c32c954c0ab6cd81039e797121ed6/69f74e00/video/tos/cn/tos-cn-ve-15/oQGpx0xfJAa0Q9IRgIFoxNDDGflB9bCEAABDEE/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=948&bt=948&cs=2&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=PDU7NDs6ZTc6OTw5aDs7NEBpMzR5bnQ5cms1OjMzNGkzM0AwNF8yLjBiNjIxXi4vYl9eYSNobmsuMmRrbC9hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=587fba1741e466158b65587feafee978&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/924c6aad0f7b0a87a450f63b9c3335ed/69f74e00/video/tos/cn/tos-cn-ve-15/oQGpx0xfJAa0Q9IRgIFoxNDDGflB9bCEAABDEE/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=948&bt=948&cs=2&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=PDU7NDs6ZTc6OTw5aDs7NEBpMzR5bnQ5cms1OjMzNGkzM0AwNF8yLjBiNjIxXi4vYl9eYSNobmsuMmRrbC9hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=587fba1741e466158b65587feafee978&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d722ohnog65q1knvq1k0&line=0&file_id=a1b8e82e16a9465794eb371851b87239&sign=9c214f5cf92cbb866b6bdc8f15af2f33&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d722ohnog65q1knvq1k0&line=1&file_id=a1b8e82e16a9465794eb371851b87239&sign=9c214f5cf92cbb866b6bdc8f15af2f33&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "download_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/b7dcfdcfda214c8cb33edd9a826de948/69f74e00/video/tos/cn/tos-cn-ve-15/628e843fa8874f368f41fbf3b1735b5e/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2861&bt=2861&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=O2c4aDw0ZjM3ODo3ZzxlN0BpMzR5bnQ5cms1OjMzNGkzM0A1LV8xYzYtXmMxXl5gLjA2YSNobmsuMmRrbC9hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/560d663e32e3149d8cae6f20d4ead9f3/69f74e00/video/tos/cn/tos-cn-ve-15/628e843fa8874f368f41fbf3b1735b5e/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2861&bt=2861&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=O2c4aDw0ZjM3ODo3ZzxlN0BpMzR5bnQ5cms1OjMzNGkzM0A1LV8xYzYtXmMxXl5gLjA2YSNobmsuMmRrbC9hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d722ohnog65q1knvq1k0&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JxvAfESRKvePEcuaU9Iw7fHOwTcZpGMhantwGo7-E9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d722ohnog65q1knvq1k0&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JxvAfESRKvePEcuaU9Iw7fHOwTcZpGMhantwGo7-E9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH"
+              ]
+            }
+          }
+        },
+        {
+          "aweme_id": "7620493304437673266",
+          "desc": "“知不可乎骤得，托遗响于悲风” #诗词 #诗词 文化",
+          "media_type": 4,
+          "video": {
+            "width": 576,
+            "height": 1024,
+            "play_addr_h264": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/a5a55692f8c274036011727ca30c15d8/69f74dfe/video/tos/cn/tos-cn-ve-15/oYeTqP72BwGgfCrIWeLwJQYxBQirIACNt1gG8A/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1760&bt=1760&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=OTw8OzdpaTk2ZDk6OjdnNEBpM3R4bG05cjRwOjMzNGkzM0BeLmIxYGMvXl4xL2AvMzZfYSNoY2tjMmQ0cC1hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/605e36eae9749dd8469f43e0518e1b4c/69f74dfe/video/tos/cn/tos-cn-ve-15/oYeTqP72BwGgfCrIWeLwJQYxBQirIACNt1gG8A/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1760&bt=1760&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=OTw8OzdpaTk2ZDk6OjdnNEBpM3R4bG05cjRwOjMzNGkzM0BeLmIxYGMvXl4xL2AvMzZfYSNoY2tjMmQ0cC1hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d70ms17og65jfinufqk0&line=0&file_id=b19d6427c7264aa3a62fffc448e919a6&sign=dec941924e25a9d804710e545f3b399b&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d70ms17og65jfinufqk0&line=1&file_id=b19d6427c7264aa3a62fffc448e919a6&sign=dec941924e25a9d804710e545f3b399b&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/a5a55692f8c274036011727ca30c15d8/69f74dfe/video/tos/cn/tos-cn-ve-15/oYeTqP72BwGgfCrIWeLwJQYxBQirIACNt1gG8A/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1760&bt=1760&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=OTw8OzdpaTk2ZDk6OjdnNEBpM3R4bG05cjRwOjMzNGkzM0BeLmIxYGMvXl4xL2AvMzZfYSNoY2tjMmQ0cC1hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/605e36eae9749dd8469f43e0518e1b4c/69f74dfe/video/tos/cn/tos-cn-ve-15/oYeTqP72BwGgfCrIWeLwJQYxBQirIACNt1gG8A/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1760&bt=1760&cs=0&ds=6&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=OTw8OzdpaTk2ZDk6OjdnNEBpM3R4bG05cjRwOjMzNGkzM0BeLmIxYGMvXl4xL2AvMzZfYSNoY2tjMmQ0cC1hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=f0150a16a324336cda5d6dd0b69ed299&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d70ms17og65jfinufqk0&line=0&file_id=b19d6427c7264aa3a62fffc448e919a6&sign=dec941924e25a9d804710e545f3b399b&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d70ms17og65jfinufqk0&line=1&file_id=b19d6427c7264aa3a62fffc448e919a6&sign=dec941924e25a9d804710e545f3b399b&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "play_addr_265": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/1bc9e53efa32434dec8e364b95bf2954/69f74dfe/video/tos/cn/tos-cn-ve-15/oMzIBlOoILAecgQAE7xGGJfnt6dHwNTBoBVeC6/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=777&bt=777&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=OzRkaDVnODRkNjo6NGY6PEBpM3R4bG05cjRwOjMzNGkzM0BhMTQvLV81Xy8xNi1hYjI2YSNoY2tjMmQ0cC1hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=587fba1741e466158b65587feafee978&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/e2decf4e0479f6c4d2c0fa952eafb390/69f74dfe/video/tos/cn/tos-cn-ve-15/oMzIBlOoILAecgQAE7xGGJfnt6dHwNTBoBVeC6/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=777&bt=777&cs=2&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=OzRkaDVnODRkNjo6NGY6PEBpM3R4bG05cjRwOjMzNGkzM0BhMTQvLV81Xy8xNi1hYjI2YSNoY2tjMmQ0cC1hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=587fba1741e466158b65587feafee978&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d70ms17og65jfinufqk0&line=0&file_id=9957ecd10797432ab185bd022e7a41d8&sign=74b453aa4904761ed887ed618ffa59e1&is_play_url=1&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d70ms17og65jfinufqk0&line=1&file_id=9957ecd10797432ab185bd022e7a41d8&sign=74b453aa4904761ed887ed618ffa59e1&is_play_url=1&source=PackSourceEnum_PUBLISH"
+              ]
+            },
+            "download_addr": {
+              "url_list": [
+                "https://v3-search.douyinvod.com/a5278a062b3c94b5366d5f5c7ffb1634/69f74dfe/video/tos/cn/tos-cn-ve-15/ogGCguVAztfGyeNPQYF7rJewB6BLBbITAIoEn3/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2377&bt=2377&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=PDM1PDs6NWQ4ZzM0Zzs7ZkBpM3R4bG05cjRwOjMzNGkzM0BeYl42MF82XzAxX2M2XmFjYSNoY2tjMmQ0cC1hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://v5-dy-o-abtest.zjcdn.com/5e2b79ab76f79d6be9dda7b0f58b41e3/69f74dfe/video/tos/cn/tos-cn-ve-15/ogGCguVAztfGyeNPQYF7rJewB6BLBbITAIoEn3/?a=615883&ch=10010&cr=13&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2377&bt=2377&cs=0&ds=3&ft=Xo0TLaZqsQOCCp5Sup-Q6_Mme-rLWa5eFr2Vbhd-IT6R5MuwUBMEq&mime_type=video_mp4&qs=0&rc=PDM1PDs6NWQ4ZzM0Zzs7ZkBpM3R4bG05cjRwOjMzNGkzM0BeYl42MF82XzAxX2M2XmFjYSNoY2tjMmQ0cC1hLS1kLTBzcw%3D%3D&btag=c0000e00028000&dy_q=1777811359&feature_id=93c5283e1794c821af5e0ee1411bec9d&l=2026050320291910E2E53E06328FD7D4D0",
+                "https://api-play-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d70ms17og65jfinufqk0&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JxvAfESRKvePEcuaU9tMnJSqwTcZpA59Ynt8R47-E9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH",
+                "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0300fg10000d70ms17og65jfinufqk0&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&biz_sign=NRPI1lC4AlkgB1YZ_o3JxvAfESRKvePEcuaU9tMnJSqwTcZpA59Ynt8R47-E9VaaOzLa7CA0Ou-V1V2BgVgVddcS7k7MDGbNHaUZIZuaRMUGyO7s5wbVW7et0I2xs1hA&logo_name=aweme_search_suffix&source=PackSourceEnum_PUBLISH"
+              ]
+            }
+          }
+        }
+      ],
+      "has_more": 1,
+      "max_cursor": 1774284378000
+    }
+  }
+}

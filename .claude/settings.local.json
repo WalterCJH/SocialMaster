@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs grep *)",
+      "Bash(grep -v \"^$\")",
+      "Bash(python3 *)",
+      "WebFetch(domain:api.tikhub.io)",
+      "Bash(curl -s \"https://api.tikhub.io/openapi.json\")",
+      "PowerShell(Test-Path *)",
+      "PowerShell(Get-ChildItem *)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Source_2026\\\\SocialMaster\" -Recurse -Name -Directory)",
+      "Bash(Sort-Object)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Source_2026\\\\SocialMaster\" -Directory | Where-Object { $_.Name -ne \"accounts\" -and $_.Name -ne \".claude\" } | Select-Object -ExpandProperty Name | Sort-Object)",
+      "Bash(New-Item -ItemType Directory -Path \"C:\\\\Source_2026\\\\SocialMaster\\\\Platforms\\\\Facebook\" -Force)",
+      "Bash(Out-Null)",
+      "Bash(Write-Output \"OK\")",
+      "PowerShell(Get-ChildItem \"C:\\\\Source_2026\\\\SocialMaster\\\\debug\" | ForEach-Object { $_.Name })"
+    ]
+  }
+}

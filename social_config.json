@@ -1,0 +1,65 @@
+{
+  "version": "2.0.0",
+  "settings": {
+    "accounts_directory": "accounts"
+  },
+  "platforms": {
+    "Instagram": {
+      "base_url": "https://www.instagram.com/",
+      "upload_timeout_seconds": 120,
+      "navigation_timeout_seconds": 60,
+      "default_min_interval_hours": 3,
+      "default_max_interval_hours": 8,
+      //"default_caption_hashtags": ["#trending", "#video", "#content"],
+      "account_nurturing": {
+        "scroll_interval_min_minutes": 3,
+        "scroll_interval_max_minutes": 5,
+        "scroll_distance_pixels": 300,
+        "scroll_variation_pixels": 100
+      }
+    },
+    "X": {
+      "base_url": "https://x.com/",
+      "upload_timeout_seconds": 120,
+      "navigation_timeout_seconds": 60,
+      "default_min_interval_hours": 3,
+      "default_max_interval_hours": 8,
+      //"default_caption_hashtags": ["#trending", "#video", "#content"],
+      "account_nurturing": {
+        "scroll_interval_min_minutes": 3,
+        "scroll_interval_max_minutes": 5,
+        "scroll_distance_pixels": 300,
+        "scroll_variation_pixels": 100
+      }
+    },
+    "Facebook": {
+      "base_url": "https://www.facebook.com/",
+      "upload_timeout_seconds": 180,
+      "navigation_timeout_seconds": 60,
+      "default_min_interval_hours": 3,
+      "default_max_interval_hours": 8,
+      //"default_caption_hashtags": ["#trending", "#video", "#content"],
+      "account_nurturing": {
+        "scroll_interval_min_minutes": 3,
+        "scroll_interval_max_minutes": 5,
+        "scroll_distance_pixels": 300,
+        "scroll_variation_pixels": 100
+      }
+    }
+  },
+  "sources": {
+    "Douyin": {
+      "api_host": "api.tikhub.io",
+      "auth_token": "Bearer yb0YHe5O5VClxEyVAduM6i7vDQajd59l+kHkiBW9T6Wcs0y4LVCjbgnEOw==",
+      "min_file_size_mb": 1.0,
+      "download_timeout_seconds": 180,
+      "page_size": 20,
+      "max_attempts_per_page": 3
+    }
+  },
+  "ui": {
+    "window_width": 1100,
+    "window_height": 650,
+    "update_interval_seconds": 5
+  }
+}
