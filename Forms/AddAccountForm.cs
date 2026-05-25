@@ -10,9 +10,13 @@ public class AddAccountForm : Form
     private TextBox _txtSourceConfig = null!;
     private TextBox _txtCustomName = null!;
     private TextBox _txtNotes = null!;
+    private Label _lblFacebookPageUrl = null!;
     private TextBox _txtFacebookPageUrl = null!;
     private NumericUpDown _nudMinInterval = null!;
     private NumericUpDown _nudMaxInterval = null!;
+    private TableLayoutPanel _layout = null!;
+    private const int FacebookRowIndex = 5;
+    private const int FacebookRowHeight = 34;
 
     public string SelectedPlatform => _cbPlatform?.Text ?? _editPlatform;
     public string SelectedSource => _cbSource.Text;
@@ -81,6 +85,7 @@ public class AddAccountForm : Form
         _txtSourceConfig     = new TextBox { Dock = DockStyle.Fill, Text = existing?.SourceConfig ?? "" };
         _txtCustomName       = new TextBox { Dock = DockStyle.Fill, Text = existing?.CustomName ?? "" };
         _txtNotes            = new TextBox { Dock = DockStyle.Fill, Text = existing?.Notes ?? "" };
+        _lblFacebookPageUrl  = MakeLabel("粉絲團網址 (FB)");
         _txtFacebookPageUrl  = new TextBox { Dock = DockStyle.Fill, Text = existing?.FacebookPageUrl ?? "" };
 
         // Interval row — [NUD] ~ [NUD] 分鐘
@@ -123,7 +128,7 @@ public class AddAccountForm : Form
         layout.Controls.Add(_txtCustomName, 1, 3);
         layout.Controls.Add(MakeLabel("備註"), 0, 4);
         layout.Controls.Add(_txtNotes, 1, 4);
-        layout.Controls.Add(MakeLabel("粉絲團網址 (FB)"), 0, 5);
+        layout.Controls.Add(_lblFacebookPageUrl, 0, 5);
         layout.Controls.Add(_txtFacebookPageUrl, 1, 5);
         layout.Controls.Add(MakeLabel("發文間隔"), 0, 6);
         layout.Controls.Add(intervalPanel, 1, 6);
@@ -133,6 +138,21 @@ public class AddAccountForm : Form
         AcceptButton = btnOk;
         CancelButton = btnCancel;
         Controls.Add(layout);
+
+        _layout = layout;
+        UpdateFacebookFieldVisibility(SelectedPlatform);
+        if (_cbPlatform != null)
+            _cbPlatform.SelectedIndexChanged += (_, _) => UpdateFacebookFieldVisibility(_cbPlatform.Text);
+    }
+
+    // 只有當選擇的平台是 Facebook 時才顯示粉絲團網址欄位，並把該行收合避免留白
+    private void UpdateFacebookFieldVisibility(string platform)
+    {
+        bool show = platform == "Facebook";
+        _lblFacebookPageUrl.Visible = show;
+        _txtFacebookPageUrl.Visible = show;
+        _layout.RowStyles[FacebookRowIndex] = new RowStyle(SizeType.Absolute, show ? FacebookRowHeight : 0);
+        Height = 374 - (show ? 0 : FacebookRowHeight);
     }
 
     // 建立左欄標籤，統一設定對齊與內距
