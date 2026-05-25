@@ -457,6 +457,7 @@ public class MainForm : Form
         acc.CustomName = dlg.CustomName;
         acc.Notes = dlg.Notes;
         acc.FacebookPageUrl = dlg.FacebookPageUrl;
+        acc.IsBusinessAccount = dlg.IsBusinessAccount;
         acc.MinIntervalMinutes = dlg.MinIntervalMinutes;
         acc.MaxIntervalMinutes = dlg.MaxIntervalMinutes;
         _sessionManager.UpdateProfile(acc);
@@ -477,6 +478,7 @@ public class MainForm : Form
         acc.CustomName = dlg.CustomName;
         acc.Notes = dlg.Notes;
         acc.FacebookPageUrl = dlg.FacebookPageUrl;
+        acc.IsBusinessAccount = dlg.IsBusinessAccount;
         acc.MinIntervalMinutes = dlg.MinIntervalMinutes;
         acc.MaxIntervalMinutes = dlg.MaxIntervalMinutes;
         _sessionManager.UpdateProfile(acc);

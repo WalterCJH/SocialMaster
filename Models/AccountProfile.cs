@@ -34,6 +34,9 @@ public class AccountProfile
     [JsonProperty("facebook_page_url")]
     public string FacebookPageUrl { get; set; } = "";
 
+    [JsonProperty("is_business_account")]
+    public bool IsBusinessAccount { get; set; } = false;
+
     // Computed from the directory this file lives in — not persisted
     [JsonIgnore]
     public string AccountDir { get; set; } = "";

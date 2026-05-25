@@ -12,11 +12,15 @@ public class AddAccountForm : Form
     private TextBox _txtNotes = null!;
     private Label _lblFacebookPageUrl = null!;
     private TextBox _txtFacebookPageUrl = null!;
+    private Label _lblIsBusinessAccount = null!;
+    private CheckBox _chkIsBusinessAccount = null!;
     private NumericUpDown _nudMinInterval = null!;
     private NumericUpDown _nudMaxInterval = null!;
     private TableLayoutPanel _layout = null!;
     private const int FacebookRowIndex = 5;
-    private const int FacebookRowHeight = 34;
+    private const int InstagramRowIndex = 6;
+    private const int ConditionalRowHeight = 34;
+    private const int BaseFormHeight = 340;
 
     public string SelectedPlatform => _cbPlatform?.Text ?? _editPlatform;
     public string SelectedSource => _cbSource.Text;
@@ -24,6 +28,7 @@ public class AddAccountForm : Form
     public string CustomName => _txtCustomName.Text.Trim();
     public string Notes => _txtNotes.Text.Trim();
     public string FacebookPageUrl => _txtFacebookPageUrl.Text.Trim();
+    public bool IsBusinessAccount => _chkIsBusinessAccount.Checked;
     public int MinIntervalMinutes => (int)_nudMinInterval.Value;
     public int MaxIntervalMinutes => (int)_nudMaxInterval.Value;
 
@@ -37,7 +42,7 @@ public class AddAccountForm : Form
         _editPlatform = existing?.Platform ?? "";
 
         Text = isEdit ? $"編輯帳號 #{existing!.Id}" : "新增帳號";
-        Size = new Size(650, 374);
+        Size = new Size(650, BaseFormHeight);
         FormBorderStyle = FormBorderStyle.FixedDialog;
         MaximizeBox = false;
         MinimizeBox = false;
@@ -47,12 +52,12 @@ public class AddAccountForm : Form
         {
             Dock = DockStyle.Fill,
             ColumnCount = 2,
-            RowCount = 8,
+            RowCount = 9,
             Padding = new Padding(14, 12, 14, 8),
         };
         layout.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 130));
         layout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100));
-        for (int i = 0; i < 7; i++)
+        for (int i = 0; i < 8; i++)
             layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 34));
         layout.RowStyles.Add(new RowStyle(SizeType.Percent, 100));
 
@@ -87,6 +92,14 @@ public class AddAccountForm : Form
         _txtNotes            = new TextBox { Dock = DockStyle.Fill, Text = existing?.Notes ?? "" };
         _lblFacebookPageUrl  = MakeLabel("粉絲團網址 (FB)");
         _txtFacebookPageUrl  = new TextBox { Dock = DockStyle.Fill, Text = existing?.FacebookPageUrl ?? "" };
+        _lblIsBusinessAccount = MakeLabel("商業帳號 (IG)");
+        _chkIsBusinessAccount = new CheckBox
+        {
+            Text = "此為商業帳號",
+            Dock = DockStyle.Fill,
+            Checked = existing?.IsBusinessAccount ?? false,
+            Padding = new Padding(0, 4, 0, 0),
+        };
 
         // Interval row — [NUD] ~ [NUD] 分鐘
         _nudMinInterval = new NumericUpDown { Minimum = 1, Maximum = 99999, Width = 90, Value = existing?.MinIntervalMinutes ?? 1150 };
@@ -130,29 +143,39 @@ public class AddAccountForm : Form
         layout.Controls.Add(_txtNotes, 1, 4);
         layout.Controls.Add(_lblFacebookPageUrl, 0, 5);
         layout.Controls.Add(_txtFacebookPageUrl, 1, 5);
-        layout.Controls.Add(MakeLabel("發文間隔"), 0, 6);
-        layout.Controls.Add(intervalPanel, 1, 6);
-        layout.Controls.Add(new Panel(), 0, 7);
-        layout.Controls.Add(btnPanel, 1, 7);
+        layout.Controls.Add(_lblIsBusinessAccount, 0, 6);
+        layout.Controls.Add(_chkIsBusinessAccount, 1, 6);
+        layout.Controls.Add(MakeLabel("發文間隔"), 0, 7);
+        layout.Controls.Add(intervalPanel, 1, 7);
+        layout.Controls.Add(new Panel(), 0, 8);
+        layout.Controls.Add(btnPanel, 1, 8);
 
         AcceptButton = btnOk;
         CancelButton = btnCancel;
         Controls.Add(layout);
 
         _layout = layout;
-        UpdateFacebookFieldVisibility(SelectedPlatform);
+        UpdatePlatformDependentFields(SelectedPlatform);
         if (_cbPlatform != null)
-            _cbPlatform.SelectedIndexChanged += (_, _) => UpdateFacebookFieldVisibility(_cbPlatform.Text);
+            _cbPlatform.SelectedIndexChanged += (_, _) => UpdatePlatformDependentFields(_cbPlatform.Text);
     }
 
-    // 只有當選擇的平台是 Facebook 時才顯示粉絲團網址欄位，並把該行收合避免留白
-    private void UpdateFacebookFieldVisibility(string platform)
+    // 依目前選擇的平台切換 FB 粉絲團網址 / IG 商業帳號欄位的顯示，並收合未使用的列避免留白
+    private void UpdatePlatformDependentFields(string platform)
     {
-        bool show = platform == "Facebook";
-        _lblFacebookPageUrl.Visible = show;
-        _txtFacebookPageUrl.Visible = show;
-        _layout.RowStyles[FacebookRowIndex] = new RowStyle(SizeType.Absolute, show ? FacebookRowHeight : 0);
-        Height = 374 - (show ? 0 : FacebookRowHeight);
+        bool showFb = platform == "Facebook";
+        bool showIg = platform == "Instagram";
+
+        _lblFacebookPageUrl.Visible = showFb;
+        _txtFacebookPageUrl.Visible = showFb;
+        _layout.RowStyles[FacebookRowIndex] = new RowStyle(SizeType.Absolute, showFb ? ConditionalRowHeight : 0);
+
+        _lblIsBusinessAccount.Visible = showIg;
+        _chkIsBusinessAccount.Visible = showIg;
+        _layout.RowStyles[InstagramRowIndex] = new RowStyle(SizeType.Absolute, showIg ? ConditionalRowHeight : 0);
+
+        int extra = (showFb ? ConditionalRowHeight : 0) + (showIg ? ConditionalRowHeight : 0);
+        Height = BaseFormHeight + extra;
     }
 
     // 建立左欄標籤，統一設定對齊與內距

@@ -10,11 +10,13 @@ public class InstagramPlatform : ISocialPlatform
     public string PlatformName => "Instagram";
 
     private readonly PlatformConfig _cfg;
+    private readonly bool _isBusinessAccount;
     private readonly Random _rng = new();
 
-    public InstagramPlatform(PlatformConfig config)
+    public InstagramPlatform(PlatformConfig config, bool isBusinessAccount = false)
     {
         _cfg = config;
+        _isBusinessAccount = isBusinessAccount;
     }
 
     // ── Login ─────────────────────────────────────────────────────────────────
@@ -78,13 +80,13 @@ public class InstagramPlatform : ISocialPlatform
             await page.GotoAsync(_cfg.BaseUrl, new PageGotoOptions
             {
                 Timeout = _cfg.NavigationTimeoutSeconds * 1000,
-                WaitUntil = WaitUntilState.NetworkIdle,
+                WaitUntil = WaitUntilState.DOMContentLoaded,
             });
 
             // Dismiss any popup dialogs before interacting with the page
             await DismissPopupsAsync(page);
 
-            // Step 1: click the create button
+            // Step 1: click the create button (打開側邊欄 popover)
             if (!await ClickCreateButtonAsync(page, ct))
             {
                 await SaveDebugScreenshot(page, "no_create_btn");
@@ -92,15 +94,32 @@ public class InstagramPlatform : ISocialPlatform
                 return false;
             }
 
-            await Task.Delay(1500, ct);
+            await Task.Delay(1000, ct);
 
-            // Step 2: if a Reel/Post menu appeared, pick Reel via JS click (overlay blocks ClickAsync)
-            var reelItem = await FindAnyAsync(page, InstagramSelectors.ReelMenuItem);
-            if (reelItem != null)
+            // Step 2: business → 點 popover 內的「貼文」(個人帳號才有 Reel 預設選項);
+            //         non-business → 若出現 Reel 選單則用 JS click（overlay 會擋住 ClickAsync）
+            if (_isBusinessAccount)
             {
-                await reelItem.EvaluateAsync("el => el.click()");
+                if (!await ClickBusinessPostMenuItemAsync(page))
+                {
+                    await SaveDebugScreenshot(page, "no_business_post_menu");
+                    AppLogger.Error("-", PlatformName, "商業帳號流程：找不到「貼文」選單項，已截圖");
+                    return false;
+                }
+                AppLogger.Info("-", PlatformName, "商業帳號流程：已點擊「貼文」選單項");
                 await Task.Delay(1000, ct);
             }
+            else
+            {
+                var reelItem = await FindAnyAsync(page, InstagramSelectors.ReelMenuItem);
+                if (reelItem != null)
+                {
+                    await reelItem.EvaluateAsync("el => el.click()");
+                    await Task.Delay(1000, ct);
+                }
+            }
+
+            await Task.Delay(1500, ct);
 
             // Step 3: scope inside the "建立新貼文" dialog, find button._aswp, JS-click it.
             // An overlay div intercepts pointer events so ClickAsync always times out.
@@ -515,6 +534,26 @@ public class InstagramPlatform : ISocialPlatform
         }
 
         return false;
+    }
+
+    // 商業帳號點擊「建立」後，popover 會出現「貼文／直播視訊／廣告」三個選項；
+    // 透過 JS 搜尋葉節點 span 文字精確等於「貼文」(避免誤觸「新貼文」)，再點擊其外層 a/button
+    private static async Task<bool> ClickBusinessPostMenuItemAsync(IPage page)
+    {
+        try
+        {
+            return await page.EvaluateAsync<bool>(@"
+                () => {
+                    const spans = [...document.querySelectorAll('span')];
+                    const span = spans.find(s => s.childElementCount === 0 && s.textContent.trim() === '貼文');
+                    if (!span) return false;
+                    const target = span.closest('a, button, [role=""link""], [role=""button""]') ?? span;
+                    target.click();
+                    return true;
+                }
+            ");
+        }
+        catch { return false; }
     }
 
     // 等待一組 selector 中任一個變為可見，回傳第一個找到的元素；逾時則回傳 null
